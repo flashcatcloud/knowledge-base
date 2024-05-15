@@ -1,6 +1,6 @@
 快速了解
 ---
-[Authing](https://www.authing.cn/)是一家提供身份识别和访问控制管理的供应商，通过Authing平台，可实现以OIDC或SAML2.0协议的方式登录FlashDuty管理控制台
+[Authing](https://www.authing.cn/)是一家提供身份识别和访问控制管理的供应商，通过Authing平台，可实现以OIDC或SAML2.0协议的方式登录Flashduty管理控制台
 
 ## 准备工作
 ---
@@ -19,16 +19,16 @@
 
 |字段|描述|
 |---|---|
-|App ID|对应FlashDuty的Client ID|
-|APP Secret|对应FlashDuty的Client Secret|
-|Issuer|对应FlashDuty的Issuer|
+|App ID|对应Flashduty的Client ID|
+|APP Secret|对应Flashduty的Client Secret|
+|Issuer|对应Flashduty的Issuer|
 |认证地址|通过SSO登录时跳转的地址|
 
 
 
 ## 开始配置OIDC协议
 ---
-### 1. 打开[FlashDuty](console.flashcat.cloud)控制台并开启单点登录配置
+### 1. 打开[Flashduty](console.flashcat.cloud)控制台并开启单点登录配置
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436946/image-preview)
 
@@ -60,7 +60,7 @@
 #### 4.1 在Authing中创建用户
 
 :::tip
-FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
+Flashduty 只支持用户邮箱关联，所以需要用邮箱创建用户
 :::
 
 
@@ -79,7 +79,7 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436980/image-preview)
 
 :::tip
-使用在Authing创建的用户，登录FlashDuty控制台
+使用在Authing创建的用户，登录Flashduty控制台
 :::
 
 
@@ -96,7 +96,7 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436984/image-preview)
 
-#### 1.2 将FlashDuty的单点登录协议改成SAML协议，并复制acs地址
+#### 1.2 将Flashduty的单点登录协议改成SAML协议，并复制acs地址
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436987/image-preview)
 
@@ -104,18 +104,18 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436989/image-preview)
 
-### 2.在FlashDuty中配置
+### 2.在Flashduty中配置
 
 #### 2.1 下载metadata数据，点击链接并保存到本地
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436990/image-preview)
 
-#### 2.2 上传到FlashDuty的单点登录配置中并保存
+#### 2.2 上传到Flashduty的单点登录配置中并保存
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436991/image-preview)
 
 #### 2.3 测试登录（参考OIDC协议的登录）
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436980/image-preview)
 :::tip
-以上是两种方式的全部配置方式，两个平台在配置时有穿插，所以请务必小心不要遗忘关键信息，如在配置过程中有任何问题，可以联系FlashDuty技术支持协助
+以上是两种方式的全部配置方式，两个平台在配置时有穿插，所以请务必小心不要遗忘关键信息，如在配置过程中有任何问题，可以联系Flashduty技术支持协助
 :::

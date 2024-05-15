@@ -12,8 +12,8 @@ Keycloak是一个开源的身份和访问管理解决方案，它提供了一套
 
 ## 基于SAML2.0协议
 ---
-### 1.登录FlashDuty控制台
-#### 1.1 从FlashDuty获取acs地址（第2步会用到）
+### 1.登录Flashduty控制台
+#### 1.1 从Flashduty获取acs地址（第2步会用到）
 #### 1.2 路径：访问控制--->单点登录--->设置--->SAML2.0协议---->Flashcat服务提供商信息--->Assertion Consumer Service URL
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437194/image-preview)
@@ -22,7 +22,7 @@ Keycloak是一个开源的身份和访问管理解决方案，它提供了一套
 #### 2.1 路径：Clients ---> Create client
 #### 2.2 Client Type：选择SAML协议
 #### 2.3 Client ID填写： flashcat.cloud（固定值，不可更改）
-#### 2.4 Valid redirect URIs： 填写从FlashDuty获取的acs地址
+#### 2.4 Valid redirect URIs： 填写从Flashduty获取的acs地址
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437197/image-preview)
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437029/image-preview)
@@ -64,7 +64,7 @@ Keycloak是一个开源的身份和访问管理解决方案，它提供了一套
  #### 4.1 在Client--->Action中下载到本地
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437039/image-preview)
 
-#### 4.2 上传XML文件到FlashDuty的单点登录配置中
+#### 4.2 上传XML文件到Flashduty的单点登录配置中
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437040/image-preview)
 
 
@@ -80,8 +80,8 @@ Keycloak是一个开源的身份和访问管理解决方案，它提供了一套
 
 ## 基于OIDC协议
 ---
-### 1.登录FlashDuty平台
-- 从FlashDuty获取Redirect URL（第2步会用到）
+### 1.登录Flashduty平台
+- 从Flashduty获取Redirect URL（第2步会用到）
 - 路径：访问控制--->单点登录--->设置--->OIDC协议---->Flashcat服务提供商信息--->Redirect URL
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437183/image-preview)
 
@@ -105,7 +105,7 @@ Keycloak是一个开源的身份和访问管理解决方案，它提供了一套
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437186/image-preview)
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437187/image-preview)
 
-### 4.FlashDuty单点登录配置样式
+### 4.Flashduty单点登录配置样式
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437188/image-preview)
 
