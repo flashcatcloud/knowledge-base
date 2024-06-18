@@ -2,7 +2,7 @@
 title: "Keycloak配置单点登录、配置SSO登录"
 description: "在Keycloak中配置单点登录教程"
 date: "2024-05-10T10:00:00+08:00"
-url: "https://docs.flashcat.cloud/zh/flashduty/introduction"
+url: "https://docs.flashcat.cloud/zh/flashduty/keycloak-integration-guide"
 ---
 
 ## 快速了解
