@@ -116,7 +116,7 @@ Keycloak 是一个开源的身份和访问管理解决方案，它提供了一�
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437188/image-preview)
 
 :::tip
-基于OIDC配置完成后，登录测试参考5.2小节部分即可
+基于OIDC配置完成后，登录测试参考 配置单点登录 部分即可
 
 :::
 
