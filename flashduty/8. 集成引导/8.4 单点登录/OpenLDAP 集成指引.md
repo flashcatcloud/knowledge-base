@@ -5,6 +5,12 @@ date: "2024-06-18T10:00:00+08:00"
 url: "https://docs.flashcat.cloud/zh/flashduty/introduction"
 ---
 
+:::tip
+
+LDAP 集成登录，仅 `私有化版本` 支持
+
+:::
+
 ## 快速了解
 ---
 
