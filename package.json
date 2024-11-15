@@ -1,0 +1,31 @@
+{
+  "name": "@flashduty/knowledge-base",
+  "version": "1.0.0",
+  "description": "flashduty knowledge base",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.js"
+  },
+  "files": [
+    "flashDuty",
+    "*.js",
+    "*.mjs"
+  ],
+  "keywords": [
+    "md"
+  ],
+  "author": "niuweili",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flashcatcloud/knowledge-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flashcatcloud/knowledge-base/issues"
+  },
+  "homepage": "https://github.com/flashcatcloud/knowledge-base#readme"
+}
