@@ -1,19 +1,20 @@
 {
   "name": "@flashduty/knowledge-base",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "flashduty knowledge base",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "prepublishOnly": "vite build"
   },
   "exports": {
-    "import": "./index.mjs",
-    "require": "./index.js"
+    "import": "./dist/main.js",
+    "require": "./dist/main.cjs"
   },
   "files": [
-    "flashDuty",
-    "*.js",
-    "*.mjs"
+    "dist"
   ],
   "keywords": [
     "md"
@@ -27,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/flashcatcloud/knowledge-base/issues"
   },
-  "homepage": "https://github.com/flashcatcloud/knowledge-base#readme"
+  "homepage": "https://docs.flashcat.cloud",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
 }
