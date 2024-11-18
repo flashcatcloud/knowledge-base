@@ -4,10 +4,10 @@ import { defineConfig } from "vite";
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, "index.js"),
-      name: "main",
-      fileName: "main",
-      formats: ["cjs", "es"],
+      entry: {
+        zh: resolve(__dirname, "src/zh.js"),
+        en: resolve(__dirname, "src/en.js"),
+      },
     },
   },
 });

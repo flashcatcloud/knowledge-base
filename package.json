@@ -1,23 +1,19 @@
 {
   "name": "@flashduty/knowledge-base",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "flashduty knowledge base",
   "type": "module",
-  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
     "prepublishOnly": "vite build"
   },
-  "exports": {
-    "import": "./dist/main.js",
-    "require": "./dist/main.cjs"
-  },
   "files": [
     "dist"
   ],
   "keywords": [
-    "md"
+    "md",
+    "js"
   ],
   "author": "niuweili",
   "license": "ISC",
