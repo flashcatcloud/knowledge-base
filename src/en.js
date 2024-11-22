@@ -54,10 +54,13 @@ import MicrosoftTeams from "../flashduty/en/8. Integration Guides/8.3 IM integra
 /** ⬆️⬆️⬆️⬆️ IM ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ Webhooks ⬇️⬇️⬇️⬇️ */
-import AlertWebhooks from "../flashduty/en/8. Integration Guides/8.5 Webhooks/8.5.1 Alert webhook.md?raw";
+import AlertWebhook from "../flashduty/en/8. Integration Guides/8.5 Webhooks/8.5.1 Alert webhook.md?raw";
 import IncidentWebhook from "../flashduty/en/8. Integration Guides/8.5 Webhooks/8.5.2 Incident webhook.md?raw";
 import CustomAction from "../flashduty/en/8. Integration Guides/8.5 Webhooks/8.5.3 Custom action.md?raw";
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
+
+/** 模版 */
+import Templates from '../flashduty/en/3. Configure Flashduty/3.7 Notification Templates.md?raw'
 
 export {
   CustomAlert,
@@ -106,7 +109,8 @@ export {
   Wecom,
   Slack,
   MicrosoftTeams,
-  AlertWebhooks,
+  AlertWebhook,
   IncidentWebhook,
   CustomAction,
+  Templates,
 };
