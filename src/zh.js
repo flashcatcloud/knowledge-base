@@ -53,6 +53,12 @@ import Slack from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.4 Slack 
 import MicrosoftTeams from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.5 Microsoft Teams 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ IM ⬆️⬆️⬆️⬆️ */
 
+/** ⬇️⬇️⬇️⬇️ Webhooks ⬇️⬇️⬇️⬇️ */
+import AlertWebhooks from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.1 告警 webhook.md?raw";
+import IncidentWebhook from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.2 故障 webhook.md?raw";
+import CustomAction from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.3 自定义操作.md?raw";
+/** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
+
 export {
   CustomAlert,
   Email,
@@ -100,4 +106,7 @@ export {
   Wecom,
   Slack,
   MicrosoftTeams,
+  AlertWebhooks,
+  IncidentWebhook,
+  CustomAction,
 };
