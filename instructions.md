@@ -105,6 +105,7 @@ Flashduty是一个类似pagerduty的SaaS服务，目前正在做i18n多语言适
 - "登录": "sign in"
 - "登出": "sign out"
 - "注册": "sign up"
+- "常见问题": "FAQ"
 
 
 ## 文件结构
