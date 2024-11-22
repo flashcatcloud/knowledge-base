@@ -2,7 +2,7 @@
 title: "OpenLDAP Integration Guide"
 description: "Tutorial for Setting up LDAP in Docker Compose"
 date: "2024-06-18T10:00:00+08:00"
-url: "https://docs.flashcat.cloud/en/flashduty/introduction"
+url: "http://docs.flashcat.cloud/en/flashduty/openldap-integration-guide?nav=01JCQ7A4N4WRWNXW8EWEHXCMF5"
 ---
 
 :::tip
