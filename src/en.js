@@ -35,7 +35,7 @@ import AppDynamics from "../flashduty/en/8. Integrations/8.1 Alerts integration/
 import SolarWinds from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.33 SolarWinds Alert Events Integration.md?raw";
 import VolcEngineMetric from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.34 Volcengine CM Alert Events Integration.md?raw";
 import VolcEngineEvent from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.35 Volcengine CM Event Center Integration.md?raw";
-import VolcEngineTLS from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.36 Volcengine Log Service (TLS) Integration.md?raw";
+import VolcEngineTLS from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.36 Volcengine TLS Integration.md?raw";
 import OpManager from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.37 OpManager Interation.md?raw";
 import Meraki from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.38 Meraki Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
