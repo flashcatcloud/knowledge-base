@@ -38,8 +38,8 @@ import VolcEngineEvent from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.
 import VolcEngineTLS from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.36 火山引擎 TLS 告警集成指引.md?raw";
 import OpManager from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.37 OpManager 告警集成指引.md?raw";
 import Meraki from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.38 Meraki 告警集成指引.md?raw";
-import StateCloud from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.39 StateCloud 告警集成指引.md?raw";
-import GuanceCloud from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.40 观测云告警集成指引.md?raw";
+import StateCloud from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.39 天翼云告警集成指引.md?raw";
+import Guance from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.40 观测云告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -105,7 +105,7 @@ export {
   OpManager,
   Meraki,
   StateCloud,
-  GuanceCloud,
+  Guance,
   CustomChange,
   Jira,
   Lark,

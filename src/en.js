@@ -39,7 +39,7 @@ import VolcEngineTLS from "../flashduty/en/8. Integrations/8.1 Alerts integratio
 import OpManager from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.37 OpManager Interation.md?raw";
 import Meraki from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.38 Meraki Integration.md?raw";
 import StateCloud from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.39 StateCloud Integration.md?raw";
-import GuanceCloud from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.40 GuanceCloud Integration.md?raw";
+import Guance from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.40 Guance Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -105,7 +105,7 @@ export {
   OpManager,
   Meraki,
   StateCloud,
-  GuanceCloud,
+  Guance,
   CustomChange,
   Jira,
   Lark,
