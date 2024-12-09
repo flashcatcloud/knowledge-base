@@ -40,6 +40,7 @@ import OpManager from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.
 import Meraki from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.38 Meraki Integration.md?raw";
 import StateCloud from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.39 StateCloud Integration.md?raw";
 import Guance from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.40 Guance Integration.md?raw";
+import Zilliz from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.41 Zilliz Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
