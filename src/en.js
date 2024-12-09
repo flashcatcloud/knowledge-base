@@ -97,6 +97,7 @@ export {
   Dynatrace,
   HuaweiyunLTS,
   GoogleCM,
+  Zilliz,
   Splunk,
   AppDynamics,
   SolarWinds,

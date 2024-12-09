@@ -105,6 +105,7 @@ export {
   VolcEngineTLS,
   OpManager,
   Meraki,
+  Zilliz,
   StateCloud,
   Guance,
   CustomChange,
