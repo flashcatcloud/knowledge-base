@@ -108,6 +108,14 @@ Flashduty是一个类似pagerduty的SaaS服务，目前正在做i18n多语言适
 - "注册": "sign up"
 - "常见问题": "FAQ"
 - "新奇故障": "outlier incident"
+- "故障数量": "incidents"
+- "中断次数": "interruption"
+- "通知次数": "notifications"
+- "时间段": "hours"
+- "工作时间": "work"
+- "睡眠时间": "sleep"
+- "休息时间": "rest"
+- "响应投入": "response effort"
 
 
 ## 文件结构
