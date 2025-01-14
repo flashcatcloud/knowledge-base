@@ -40,6 +40,7 @@ import OpManager from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.37 O
 import Meraki from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.38 Meraki 告警集成指引.md?raw";
 import StateCloud from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.39 天翼云告警集成指引.md?raw";
 import Guance from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.40 观测云告警集成指引.md?raw";
+import Zilliz from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.41 Zilliz 告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -104,6 +105,7 @@ export {
   VolcEngineTLS,
   OpManager,
   Meraki,
+  Zilliz,
   StateCloud,
   Guance,
   CustomChange,
