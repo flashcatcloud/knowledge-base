@@ -38,6 +38,9 @@ import VolcEngineEvent from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.
 import VolcEngineTLS from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.36 火山引擎 TLS 告警集成指引.md?raw";
 import OpManager from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.37 OpManager 告警集成指引.md?raw";
 import Meraki from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.38 Meraki 告警集成指引.md?raw";
+import StateCloud from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.39 天翼云告警集成指引.md?raw";
+import Guance from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.40 观测云告警集成指引.md?raw";
+import Zilliz from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.41 Zilliz 告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -52,6 +55,15 @@ import Wecom from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.3 企业
 import Slack from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.4 Slack 集成指引.md?raw";
 import MicrosoftTeams from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.5 Microsoft Teams 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ IM ⬆️⬆️⬆️⬆️ */
+
+/** ⬇️⬇️⬇️⬇️ Webhooks ⬇️⬇️⬇️⬇️ */
+import AlertWebhook from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.1 告警 webhook.md?raw";
+import IncidentWebhook from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.2 故障 webhook.md?raw";
+import CustomAction from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.3 自定义操作.md?raw";
+/** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
+
+/** 模版 */
+import Templates from '../flashduty/zh/3. 配置Flashduty/3.7 配置通知模板.md?raw'
 
 export {
   CustomAlert,
@@ -93,6 +105,9 @@ export {
   VolcEngineTLS,
   OpManager,
   Meraki,
+  Zilliz,
+  StateCloud,
+  Guance,
   CustomChange,
   Jira,
   Lark,
@@ -100,4 +115,8 @@ export {
   Wecom,
   Slack,
   MicrosoftTeams,
+  AlertWebhook,
+  IncidentWebhook,
+  CustomAction,
+  Templates,
 };
