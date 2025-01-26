@@ -7,7 +7,7 @@ import OpenApi from "@alicloud/openapi-client";
 
 dotenv.config();
 
-const localDir = "./dist"; // 本地文件夹路径
+const localDir = "./dist/iife"; // 本地文件夹路径
 const ossDir = "/docs"; // 将数字转换为字符串并添加前缀
 
 const client = new OSS({

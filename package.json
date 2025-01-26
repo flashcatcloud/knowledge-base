@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build",
+    "build": "rm -rf dist && npm run build:iife && npm run build:esm",
+    "build:iife": "rm -rf dist/iife && vite build --mode iife",
+    "build:esm": "rm -rf dist/esm && vite build --mode esm",
     "prepublishOnly": "vite build",
-    "publish": "npm run build && node scripts/upload.mjs"
+    "publish": "npm run build:iife && node scripts/upload.mjs"
   },
   "files": [
     "dist"
