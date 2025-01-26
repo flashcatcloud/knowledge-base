@@ -65,7 +65,7 @@ import CustomAction from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.3 自
 /** 模版 */
 import Templates from "../flashduty/zh/3. 配置Flashduty/3.7 配置通知模板.md?raw";
 
-const zhDocs = {
+const docs = {
   CustomAlert,
   Email,
   N9e,
@@ -120,7 +120,5 @@ const zhDocs = {
   CustomAction,
   Templates,
 };
-
-global.FlashDocsZh = zhDocs;
-
-// export default zhDocs;
+export default docs;
+global.FlashDocsZh = docs;

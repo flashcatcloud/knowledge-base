@@ -1,7 +1,17 @@
 import { resolve } from "path";
 import { defineConfig, mergeConfig } from "vite";
+
+function transformCodePlugin() {
+  return {
+    name: "transform-code-plugin",
+    transform(code, id) {
+      return code.replace("export default docs;", "");
+    },
+  };
+}
 // 创建 ESM 配置
 const esmConfig = {
+  // plugins: [transformCodePlugin()],
   build: {
     emptyOutDir: false,
     lib: {
@@ -14,7 +24,6 @@ const esmConfig = {
     rollupOptions: {
       output: {
         entryFileNames: "esm/[name].js",
-        footer: "export default zhDocs;",
       },
     },
   },
@@ -22,6 +31,7 @@ const esmConfig = {
 
 // 创建 IIFE 配置
 const iifeConfig = {
+  plugins: [transformCodePlugin()],
   build: {
     emptyOutDir: false,
     lib: {
