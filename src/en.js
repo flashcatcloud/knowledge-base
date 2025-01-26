@@ -121,4 +121,3 @@ const docs = {
   Templates,
 };
 export default docs;
-global.FlashDocsEn = docs;
