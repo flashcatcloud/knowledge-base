@@ -9,5 +9,18 @@ export default defineConfig({
         en: resolve(__dirname, "src/en.js"),
       },
     },
+    format: "iife",
+    minify: false,
+    rollupOptions: {
+      output: {
+        format: "iife",
+        name: "FlashDocs",
+        extend: true,
+        entryFileNames: "[name].js",
+        // 包装成立即执行函数
+        banner: "(function (global) {",
+        footer: "})(window);",
+      },
+    },
   },
 });
