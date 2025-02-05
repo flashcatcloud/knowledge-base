@@ -1,15 +1,15 @@
 {
   "name": "flashduty-knowledge-base",
-  "version": "1.2.0-beta.3",
+  "version": "1.2.0-beta.4",
   "description": "flashduty knowledge base",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && npm run build:iife && npm run build:esm",
+    "build": "rm -rf dist && npm run build:iife && npm run build:esm && node scripts/upload.mjs",
     "build:iife": "rm -rf dist/iife && vite build --mode iife",
     "build:esm": "rm -rf dist/esm && vite build --mode esm",
-    "prepublishOnly": "vite build",
-    "publish": "npm run build:iife && node scripts/upload.mjs"
+    "prepublishOnly": "npm run build && node scripts/upload.mjs",
+    "upload": "npm run build:iife && node scripts/upload.mjs"
   },
   "files": [
     "dist"
@@ -22,7 +22,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flashcatcloud/knowledge-base.git"
+    "url": "https://github.com/flashcatcloud/knowledge-base.git"
   },
   "bugs": {
     "url": "https://github.com/flashcatcloud/knowledge-base/issues"
