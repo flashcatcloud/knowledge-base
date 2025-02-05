@@ -10,25 +10,7 @@ on:
     branches: [main]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 16
-      - run: npm ci
-      - run: npm run build
-    env:
-      CDN_ACCESS_KEY: ${{ secrets.CDN_ACCESS_KEY }}
-      CDN_SECRET_KEY: ${{ secrets.CDN_SECRET_KEY }}
-      CDN_BUCKET: ${{ secrets.CDN_BUCKET }}
-      CDN_REGION: ${{ secrets.CDN_REGION }}
-      CDN_ENDPOINT: ${{ secrets.CDN_ENDPOINT }}
-      CDN_URL: ${{ secrets.CDN_URL }}
-
   publish-npm:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -39,3 +21,9 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          CDN_ACCESS_KEY: ${{ secrets.CDN_ACCESS_KEY }}
+          CDN_SECRET_KEY: ${{ secrets.CDN_SECRET_KEY }}
+          CDN_BUCKET: ${{ secrets.CDN_BUCKET }}
+          CDN_REGION: ${{ secrets.CDN_REGION }}
+          CDN_ENDPOINT: ${{ secrets.CDN_ENDPOINT }}
+          CDN_URL: ${{ secrets.CDN_URL }}
