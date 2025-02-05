@@ -1,6 +1,6 @@
 {
   "name": "flashduty-knowledge-base",
-  "version": "1.2.1-beta.2",
+  "version": "1.2.1-beta.3",
   "description": "flashduty knowledge base",
   "type": "module",
   "scripts": {
@@ -10,6 +10,14 @@
     "build:esm": "rm -rf dist/esm && vite build --mode esm",
     "prepublishOnly": "npm run build && node scripts/upload.mjs",
     "upload": "npm run build:iife && node scripts/upload.mjs"
+  },
+  "exports": {
+    "./zh": {
+      "import": "./dist/esm/zh.js"
+    },
+    "./en": {
+      "import": "./dist/esm/en.js"
+    }
   },
   "files": [
     "dist"
