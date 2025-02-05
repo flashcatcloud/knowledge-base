@@ -8,7 +8,6 @@
     "build": "rm -rf dist && npm run build:iife && npm run build:esm && node scripts/upload.mjs",
     "build:iife": "rm -rf dist/iife && vite build --mode iife",
     "build:esm": "rm -rf dist/esm && vite build --mode esm",
-    "prepublishOnly": "npm run build && node scripts/upload.mjs",
     "upload": "npm run build:iife && node scripts/upload.mjs"
   },
   "files": [
