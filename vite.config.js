@@ -5,8 +5,8 @@ function transformCodePlugin(mode) {
   return {
     name: "transform-code-plugin",
     transform(code, id) {
-      if (id.includes("src/en.js") || id.includes("src/zh.js")) {
-        const name = id.includes("en.js") ? "FlashDocsEn" : "FlashDocsZh";
+      if (id.includes("src/en.ts") || id.includes("src/zh.ts")) {
+        const name = id.includes("en.ts") ? "FlashDocsEn" : "FlashDocsZh";
         if (mode === "iife") {
           return `${code.replace(
             "export default docs;",
@@ -23,8 +23,8 @@ const esmConfig = {
     emptyOutDir: false,
     lib: {
       entry: {
-        zh: resolve(__dirname, "src/zh.js"),
-        en: resolve(__dirname, "src/en.js"),
+        zh: resolve(__dirname, "src/zh.ts"),
+        en: resolve(__dirname, "src/en.ts"),
       },
     },
     format: "es",
@@ -42,8 +42,8 @@ const iifeConfig = {
     emptyOutDir: false,
     lib: {
       entry: {
-        zh: resolve(__dirname, "src/zh.js"),
-        en: resolve(__dirname, "src/en.js"),
+        zh: resolve(__dirname, "src/zh.ts"),
+        en: resolve(__dirname, "src/en.ts"),
       },
     },
     format: "iife",

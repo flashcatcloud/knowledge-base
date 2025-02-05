@@ -1,15 +1,22 @@
 {
   "name": "flashduty-knowledge-base",
-  "version": "1.2.0-beta.4",
+  "version": "1.2.2",
   "description": "flashduty knowledge base",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && npm run build:iife && npm run build:esm && node scripts/upload.mjs",
+    "build": "tsc && npm run build:iife && npm run build:esm",
     "build:iife": "rm -rf dist/iife && vite build --mode iife",
     "build:esm": "rm -rf dist/esm && vite build --mode esm",
     "prepublishOnly": "npm run build && node scripts/upload.mjs",
     "upload": "npm run build:iife && node scripts/upload.mjs"
+  },
+  "exports": {
+    "./zh": {
+      "import": "./dist/esm/zh.js"
+    },
+    "./en": {
+      "import": "./dist/esm/en.js"
+    }
   },
   "files": [
     "dist"
@@ -35,8 +42,10 @@
     "@alicloud/cdn20180510": "^1.0.10",
     "@alicloud/openapi-client": "^0.4.12",
     "@alicloud/tea-typescript": "^1.8.0",
+    "@types/node": "^22.13.1",
     "ali-oss": "^6.22.0",
     "dotenv": "^16.4.7",
+    "typescript": "^5.7.3",
     "vite": "^5.4.11"
   }
 }
