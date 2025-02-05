@@ -63,7 +63,7 @@ import CustomAction from "../flashduty/en/8. Integrations/8.5 Webhooks/8.5.3 Cus
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
 
 /** 模版 */
-import Templates from '../flashduty/en/3. Configure Flashduty/3.7 Templates.md?raw'
+import Templates from "../flashduty/en/3. Configure Flashduty/3.7 Templates.md?raw";
 
 const docs = {
   CustomAlert,
