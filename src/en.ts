@@ -41,6 +41,7 @@ import Meraki from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.3
 import StateCloud from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.39 StateCloud Integration.md?raw";
 import Guance from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.40 Guance Integration.md?raw";
 import Zilliz from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.41 Zilliz Integration.md?raw";
+import HuaweiyunAPM from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.42 Huawei Cloud APM integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -119,5 +120,6 @@ const docs = {
   IncidentWebhook,
   CustomAction,
   Templates,
+  HuaweiyunAPM,
 };
 export default docs;

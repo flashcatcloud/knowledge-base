@@ -41,6 +41,7 @@ import Meraki from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.38 Mera
 import StateCloud from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.39 天翼云告警集成指引.md?raw";
 import Guance from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.40 观测云告警集成指引.md?raw";
 import Zilliz from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.41 Zilliz 告警集成指引.md?raw";
+import HuaweiyunAPM from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.42 华为云 APM 告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -119,5 +120,6 @@ const docs = {
   IncidentWebhook,
   CustomAction,
   Templates,
+  HuaweiyunAPM,
 };
 export default docs;
