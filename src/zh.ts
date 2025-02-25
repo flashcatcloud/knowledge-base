@@ -61,6 +61,7 @@ import MicrosoftTeams from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3
 import AlertWebhook from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.1 告警 webhook.md?raw";
 import IncidentWebhook from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.2 故障 webhook.md?raw";
 import CustomAction from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.3 自定义操作.md?raw";
+import JiraSync from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.4 Jira 同步.md?raw";
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
 
 /** 模版 */
@@ -121,5 +122,6 @@ const docs = {
   CustomAction,
   Templates,
   HuaweiyunAPM,
+  JiraSync,
 };
 export default docs;
