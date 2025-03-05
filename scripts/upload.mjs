@@ -8,7 +8,7 @@ import OpenApi from "@alicloud/openapi-client";
 dotenv.config();
 
 const localDir = "./dist/iife"; // 本地文件夹路径
-const ossDir = "/test/docs"; // 上传到oss的文件路径
+// const ossDir = "/test/docs"; // 上传到oss的文件路径
 
 const client = new OSS({
   region: process.env.CDN_REGION,
@@ -43,7 +43,7 @@ async function uploadFiles() {
       }
     }
 
-    await uploadDir(localDir, ossDir);
+    await uploadDir(localDir, process.env.CDN_DIR);
   } catch (err) {
     console.error("Error uploading files:", err);
   }

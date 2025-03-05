@@ -28,3 +28,4 @@ jobs:
           CDN_REGION: ${{ secrets.CDN_REGION }}
           CDN_ENDPOINT: ${{ secrets.CDN_ENDPOINT }}
           CDN_URL: ${{ secrets.CDN_URL }}
+          CDN_DIR: '/test/docs'
