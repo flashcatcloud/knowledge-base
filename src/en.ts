@@ -42,6 +42,7 @@ import StateCloud from "../flashduty/en/8. Integrations/8.1 Alerts integration/8
 import Guance from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.40 Guance Integration.md?raw";
 import Zilliz from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.41 Zilliz Integration.md?raw";
 import HuaweiyunAPM from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.42 Huawei Cloud APM integration.md?raw";
+import ZStack from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.43 ZStack Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
