@@ -1,13 +1,12 @@
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 # For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
 
-name: 测试环境-发布文档
+name: 发布npm包-私有化部署
 
 on:
   release:
     types: [created]
-  push:
-    branches: [test]
+  workflow_dispatch:
 
 jobs:
   publish-npm:
@@ -22,10 +21,3 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-          CDN_ACCESS_KEY: ${{ secrets.CDN_ACCESS_KEY }}
-          CDN_SECRET_KEY: ${{ secrets.CDN_SECRET_KEY }}
-          CDN_BUCKET: ${{ secrets.CDN_BUCKET }}
-          CDN_REGION: ${{ secrets.CDN_REGION }}
-          CDN_ENDPOINT: ${{ secrets.CDN_ENDPOINT }}
-          CDN_URL: ${{ secrets.CDN_URL }}
-          CDN_DIR: '/test/docs'
