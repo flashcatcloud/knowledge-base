@@ -19,7 +19,6 @@ jobs:
       - run: npm ci
       - run: npm run upload
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
           CDN_ACCESS_KEY: ${{ secrets.CDN_ACCESS_KEY }}
           CDN_SECRET_KEY: ${{ secrets.CDN_SECRET_KEY }}
           CDN_BUCKET: ${{ secrets.CDN_BUCKET }}
