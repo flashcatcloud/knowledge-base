@@ -124,5 +124,6 @@ const docs = {
   Templates,
   HuaweiyunAPM,
   JiraSync,
+  ZStack
 };
 export default docs;
