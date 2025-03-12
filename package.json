@@ -7,7 +7,7 @@
     "build": "tsc && npm run build:iife && npm run build:esm",
     "build:iife": "rm -rf dist/iife && vite build --mode iife",
     "build:esm": "rm -rf dist/esm && vite build --mode esm",
-    "prepublishOnly": "npm run build && node scripts/upload.mjs",
+    "prepublishOnly": "npm run build",
     "upload": "npm run build:iife && node scripts/upload.mjs"
   },
   "exports": {

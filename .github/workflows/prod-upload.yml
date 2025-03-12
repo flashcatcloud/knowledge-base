@@ -1,7 +1,11 @@
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 # For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
 
+<<<<<<< HEAD:.github/workflows/prod-upload.yml
 name: 生产环境-发布文档到oss
+=======
+name: 生产环境-发布到oss
+>>>>>>> 6579424d6b6feea47c6ddaa9bbe4f8ce38425fc7:.github/workflows/prod-publish.yml
 
 on:
   push:
