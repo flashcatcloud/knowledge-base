@@ -43,6 +43,7 @@ import Guance from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.4
 import Zilliz from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.41 Zilliz Integration.md?raw";
 import HuaweiyunAPM from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.42 Huawei Cloud APM integration.md?raw";
 import ZStack from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.43 ZStack Integration.md?raw";
+import Keep from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.44 Keep Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -124,6 +125,7 @@ const docs = {
   Templates,
   HuaweiyunAPM,
   JiraSync,
-  ZStack
+  ZStack,
+  Keep
 };
 export default docs;
