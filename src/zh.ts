@@ -44,6 +44,7 @@ import Zilliz from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.41 Zill
 import HuaweiyunAPM from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.42 华为云 APM 告警集成指引.md?raw";
 import ZStack from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.43 ZStack 告警集成指引.md?raw";
 import Keep from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.44 Keep 集成指引.md?raw";
+import ElastAlert2 from "../flashduty/zh/8. 集成引导/8.1 告警集成/8.1.45 ElastAlert2 告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -126,6 +127,7 @@ const docs = {
   HuaweiyunAPM,
   JiraSync,
   ZStack,
-  Keep
+  Keep,
+  ElastAlert2,
 };
 export default docs;
