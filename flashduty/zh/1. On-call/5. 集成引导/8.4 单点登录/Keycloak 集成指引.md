@@ -20,7 +20,7 @@ Keycloak 是一个开源的身份和访问管理解决方案，它提供了一�
 ---
 ### 1.登录 FlashDuty 控制台
 1.1 从 FlashDuty 获取 acs 地址（第2步会用到）
-1.2 路径：访问控制=>单点登录=>设置=>SAML2.0协议=>Flashcat服务提供商信息=>Assertion Consumer Service URL
+1.2 路径：访问控制=>单点登录=>设置=>SAML2.0协议=>Flashduty服务提供商信息=>Assertion Consumer Service URL
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437194/image-preview" />
 
@@ -102,7 +102,7 @@ src="https://api.apifox.com/api/v1/projects/4169655/resources/437038/image-previ
 ---
 ### 1.登录 FlashDuty 平台
 1.1 从FlashDuty获取Redirect URL（第2步会用到）
-2.2 路径：**访问控制=>单点登录=>设置=>OIDC协议=>Flashcat 服务提供商信息==>Redirect URL**
+2.2 路径：**访问控制=>单点登录=>设置=>OIDC协议=>Flashduty 服务提供商信息==>Redirect URL**
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437183/image-preview" />
 

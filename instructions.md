@@ -173,7 +173,7 @@ Flashduty是一个类似pagerduty的SaaS服务，目前正在做i18n多语言适
 │   │   │   │   ├── 8.1.17 PagerDuty Integration.md
 │   │   │   │   ├── 8.1.18 Tencent BlueKing Integration.md
 │   │   │   │   ├── 8.1.19 Tencent Cloud CLS Integration.md
-│   │   │   │   ├── 8.1.2 Nightingale or FlashCat Integration.md
+│   │   │   │   ├── 8.1.2 Nightingale or Flashcat Integration.md
 │   │   │   │   ├── 8.1.20 Tencent Cloud Monitor CM Integration.md
 │   │   │   │   ├── 8.1.21 Tencent Cloud EventBridge.md
 │   │   │   │   ├── 8.1.22 OceanBase Integration.md

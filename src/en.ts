@@ -1,7 +1,7 @@
 /** ⬇️⬇️⬇️⬇️ 告警集成 ⬇️⬇️⬇️⬇️ */
 import CustomAlert from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.0 Standard Alert Integration.md?raw";
 import Email from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.1 Email Integration.md?raw";
-import N9e from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.2 Nightingale or FlashCat Integration.md?raw";
+import N9e from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.2 Nightingale or Flashcat Integration.md?raw";
 import Prometheus from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.3 Prometheus Integration.md?raw";
 import Grafana from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.4 Grafana Integration.md?raw";
 import Zabbix from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.5 Zabbix Integration.md?raw";
