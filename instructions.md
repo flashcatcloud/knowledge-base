@@ -59,7 +59,7 @@ Flashduty是一个类似pagerduty的SaaS服务，目前正在做i18n多语言适
 - "国内": "mainland China"
 - "环节": "level"
 - "值班": "schedule"
-- "值班轮换": "on-call shift"
+- "值班轮换": "On-call shift"
 - "修改": "change"
 - "企业微信": "WeCom"
 - "微信": "WeCom"
@@ -86,7 +86,7 @@ Flashduty是一个类似pagerduty的SaaS服务，目前正在做i18n多语言适
 - "快速静默": "quick silence"
 - "推送地址": "push URL"
 - "组合规则": "composition rule"
-- "值班轮换": "on-call rotation"
+- "值班轮换": "On-call rotation"
 - "跳转链接": "jump link"
 - "用户未关联": "user not linked"
 - "应用未关联": "app not linked"
@@ -173,7 +173,7 @@ Flashduty是一个类似pagerduty的SaaS服务，目前正在做i18n多语言适
 │   │   │   │   ├── 8.1.17 PagerDuty Integration.md
 │   │   │   │   ├── 8.1.18 Tencent BlueKing Integration.md
 │   │   │   │   ├── 8.1.19 Tencent Cloud CLS Integration.md
-│   │   │   │   ├── 8.1.2 Nightingale or FlashCat Integration.md
+│   │   │   │   ├── 8.1.2 Nightingale or Flashcat Integration.md
 │   │   │   │   ├── 8.1.20 Tencent Cloud Monitor CM Integration.md
 │   │   │   │   ├── 8.1.21 Tencent Cloud EventBridge.md
 │   │   │   │   ├── 8.1.22 OceanBase Integration.md
