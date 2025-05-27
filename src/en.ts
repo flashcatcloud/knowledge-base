@@ -49,27 +49,27 @@ import DingtalkAlert from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
-import CustomChange from "../flashduty/en/8. Integrations/8.2 Change integration/8.2.1 Standard Change Event.md?raw";
-import Jira from "../flashduty/en/8. Integrations/8.2 Change integration/8.2.2 Jira Issue Events.md?raw";
+import CustomChange from "../flashduty/en/1. On-call/8. Integrations/8.2 Change integration/8.2.1 Standard Change Event.md?raw";
+import Jira from "../flashduty/en/1. On-call/8. Integrations/8.2 Change integration/8.2.2 Jira Issue Events.md?raw";
 /** ⬆️⬆️⬆️⬆️ 变更事件 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ IM ⬇️⬇️⬇️⬇️ */
-import Lark from "../flashduty/en/8. Integrations/8.3 IM integration/8.3.1 Feishu(Lark) Integration Guide.md?raw";
-import Dingtalk from "../flashduty/en/8. Integrations/8.3 IM integration/8.3.2 Dingtalk Integration Guide.md?raw";
-import Wecom from "../flashduty/en/8. Integrations/8.3 IM integration/8.3.3 WeCom Integration Guide.md?raw";
-import Slack from "../flashduty/en/8. Integrations/8.3 IM integration/8.3.4 Slack Integration Guide.md?raw";
-import MicrosoftTeams from "../flashduty/en/8. Integrations/8.3 IM integration/8.3.5 Microsoft Teams Integration Guide.md?raw";
+import Lark from "../flashduty/en/1. On-call/8. Integrations/8.3 IM integration/8.3.1 Feishu(Lark) Integration Guide.md?raw";
+import Dingtalk from "../flashduty/en/1. On-call/8. Integrations/8.3 IM integration/8.3.2 Dingtalk Integration Guide.md?raw";
+import Wecom from "../flashduty/en/1. On-call/8. Integrations/8.3 IM integration/8.3.3 WeCom Integration Guide.md?raw";
+import Slack from "../flashduty/en/1. On-call/8. Integrations/8.3 IM integration/8.3.4 Slack Integration Guide.md?raw";
+import MicrosoftTeams from "../flashduty/en/1. On-call/8. Integrations/8.3 IM integration/8.3.5 Microsoft Teams Integration Guide.md?raw";
 /** ⬆️⬆️⬆️⬆️ IM ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ Webhooks ⬇️⬇️⬇️⬇️ */
-import AlertWebhook from "../flashduty/en/8. Integrations/8.5 Webhooks/8.5.1 Alert webhook.md?raw";
-import IncidentWebhook from "../flashduty/en/8. Integrations/8.5 Webhooks/8.5.2 Incident webhook.md?raw";
-import CustomAction from "../flashduty/en/8. Integrations/8.5 Webhooks/8.5.3 Custom action.md?raw";
-import JiraSync from "../flashduty/en/8. Integrations/8.5 Webhooks/8.5.4 Jira sync.md?raw";
+import AlertWebhook from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.1 Alert webhook.md?raw";
+import IncidentWebhook from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.2 Incident webhook.md?raw";
+import CustomAction from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.3 Custom action.md?raw";
+import JiraSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.4 Jira sync.md?raw";
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
 
 /** 模版 */
-import Templates from "../flashduty/en/3. Configure Flashduty/3.7 Templates.md?raw";
+import Templates from "../flashduty/en/1. On-call/4. Configure On-call/4.7 Templates.md?raw";
 
 const docs = {
   CustomAlert,

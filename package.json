@@ -1,14 +1,55 @@
 {
-  "name": "flashduty-docs",
-  "version": "1.0.0",
-  "description": "FlashDuty Documentation",
+  "name": "flashduty-knowledge-base",
+  "version": "1.2.5-beta.2",
+  "description": "flashduty knowledge base",
   "type": "module",
   "scripts": {
+    "build": "tsc && npm run build:iife && npm run build:esm",
+    "build:iife": "rm -rf dist/iife && vite build --mode iife",
+    "build:esm": "rm -rf dist/esm && vite build --mode esm",
+    "prepublishOnly": "npm run build",
+    "upload": "npm run build:iife && node scripts/upload.mjs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "exports": {
+    "./zh": {
+      "import": "./dist/esm/zh.js"
+    },
+    "./en": {
+      "import": "./dist/esm/en.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "md",
+    "js"
+  ],
+  "author": "niuweili",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flashcatcloud/knowledge-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flashcatcloud/knowledge-base/issues"
+  },
+  "homepage": "https://docs.flashcat.cloud",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
+    "@alicloud/cdn20180510": "^1.0.10",
+    "@alicloud/openapi-client": "^0.4.12",
+    "@alicloud/tea-typescript": "^1.8.0",
+    "@types/node": "^22.13.1",
+    "ali-oss": "^6.22.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.11",
     "vitepress": "^1.6.3"
   }
 }
