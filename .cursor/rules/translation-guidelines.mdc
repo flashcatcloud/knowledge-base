@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 文档翻译与术语统一规则
+
+文档翻译需遵循 [instructions.md](mdc:instructions.md) 文件中的详细要求：
+
+- 翻译需简洁、专业，避免中式英语。
+- 保持句子通顺、语法正确、一致性。
+- 句子需补全标点，采用 Sentence case 风格。
+- 变量、占位符顺序需与原文一致。
+- 专业术语需严格按 instructions.md 中的中英文对照表翻译。
+- 外链 https://docs.flashcat.cloud/zh/flashduty/xxx 需替换为 en 并加 nav 参数。
+
+如需查阅术语或翻译细节，请优先参考 [instructions.md](mdc:instructions.md)。

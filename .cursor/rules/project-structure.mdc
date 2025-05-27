@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 项目结构说明
+
+本项目为 Flashduty 的知识库与文档仓库，主要目录和文件如下：
+
+- [flashduty/](mdc:flashduty)：存放中英文文档，分为 zh（中文）和 en（英文）两个子目录，结构对齐，便于多语言维护。
+- [instructions.md](mdc:instructions.md)：项目的文档翻译、结构和专业术语说明。
+- [README.md](mdc:README.md)：项目简介和快速指引。
+- [src/](mdc:src)：存放中英文 i18n 相关的 js 文件。
+- [docs/](mdc:docs)：可能为文档构建或发布相关内容。
+- [package.json](mdc:package.json)、[vite.config.js](mdc:vite.config.js)：前端依赖与构建配置。
+
+文档结构以 flashduty/zh 和 flashduty/en 为主，内容一一对应，便于国际化和维护。
