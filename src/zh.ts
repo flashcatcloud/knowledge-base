@@ -49,27 +49,27 @@ import DingtalkAlert from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
-import CustomChange from "../flashduty/zh/8. 集成引导/8.2 变更集成/8.2.1 自定义事件集成指引.md?raw";
-import Jira from "../flashduty/zh/8. 集成引导/8.2 变更集成/8.2.2 Jira 事件集成指引.md?raw";
+import CustomChange from "../flashduty/zh/1. On-call/5. 集成引导/8.2 变更集成/8.2.1 自定义事件集成指引.md?raw";
+import Jira from "../flashduty/zh/1. On-call/5. 集成引导/8.2 变更集成/8.2.2 Jira 事件集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 变更事件 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ IM ⬇️⬇️⬇️⬇️ */
-import Lark from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.1 飞书 Lark 集成指引.md?raw";
-import Dingtalk from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.2 钉钉 Dingtalk 集成指引.md?raw";
-import Wecom from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.3 企业微信 Wecom 集成指引.md?raw";
-import Slack from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.4 Slack 集成指引.md?raw";
-import MicrosoftTeams from "../flashduty/zh/8. 集成引导/8.3 即时消息/8.3.5 Microsoft Teams 集成指引.md?raw";
+import Lark from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.1 飞书 Lark 集成指引.md?raw";
+import Dingtalk from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.2 钉钉 Dingtalk 集成指引.md?raw";
+import Wecom from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.3 企业微信 Wecom 集成指引.md?raw";
+import Slack from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.4 Slack 集成指引.md?raw";
+import MicrosoftTeams from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.5 Microsoft Teams 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ IM ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ Webhooks ⬇️⬇️⬇️⬇️ */
-import AlertWebhook from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.1 告警 webhook.md?raw";
-import IncidentWebhook from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.2 故障 webhook.md?raw";
-import CustomAction from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.3 自定义操作.md?raw";
-import JiraSync from "../flashduty/zh/8. 集成引导/8.5 Webhooks/8.5.4 Jira 同步.md?raw";
+import AlertWebhook from "../flashduty/zh/1. On-call/5. 集成引导/8.5 Webhooks/8.5.1 告警 webhook.md?raw";
+import IncidentWebhook from "../flashduty/zh/1. On-call/5. 集成引导/8.5 Webhooks/8.5.2 故障 webhook.md?raw";
+import CustomAction from "../flashduty/zh/1. On-call/5. 集成引导/8.5 Webhooks/8.5.3 自定义操作.md?raw";
+import JiraSync from "../flashduty/zh/1. On-call/5. 集成引导/8.5 Webhooks/8.5.4 Jira 同步.md?raw";
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
 
 /** 模版 */
-import Templates from "../flashduty/zh/3. 配置Flashduty/3.7 配置通知模板.md?raw";
+import Templates from "../flashduty/zh/1. On-call/3. 配置管理/4.7 配置通知模板.md?raw";
 
 const docs = {
   CustomAlert,
