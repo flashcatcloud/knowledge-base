@@ -17,7 +17,8 @@ jobs:
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
-      - run: npm ci || (echo "npm ci failed, trying npm install" && rm -rf node_modules package-lock.json && npm install)
+      - run: npm cache clean --force
+      - run: npm ci
       - run: npm run upload
         env:
           CDN_ACCESS_KEY: ${{ secrets.CDN_ACCESS_KEY }}
