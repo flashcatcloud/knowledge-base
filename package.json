@@ -3,6 +3,9 @@
   "version": "1.2.5-beta.2",
   "description": "flashduty knowledge base",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "build": "tsc && npm run build:iife && npm run build:esm",
     "build:iife": "rm -rf dist/iife && vite build --mode iife",
