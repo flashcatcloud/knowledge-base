@@ -45,6 +45,7 @@ import HuaweiyunAPM from "../flashduty/en/8. Integrations/8.1 Alerts integration
 import ZStack from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.43 ZStack Integration.md?raw";
 import Keep from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.44 Keep Integration.md?raw";
 import ElastAlert2 from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.45 ElastAlert2 Integration.md?raw";
+import DingtalkAlert from "../flashduty/en/8. Integrations/8.1 Alerts integration/8.1.46 DingtalkAlert Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
