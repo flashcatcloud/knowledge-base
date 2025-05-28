@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
-      - run: npm cache clean --force
-      - run: npm ci
+      - run: rm -rf node_modules package-lock.json
+      - run: npm install --no-cache
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
