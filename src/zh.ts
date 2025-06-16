@@ -73,6 +73,10 @@ import JiraSync from "../flashduty/zh/1. On-call/5. 集成引导/8.5 Webhooks/8.
 /** 模版 */
 import Templates from "../flashduty/zh/1. On-call/3. 配置管理/4.7 配置通知模板.md?raw";
 
+/** ⬇️⬇️⬇️⬇️ Other ⬇️⬇️⬇️⬇️ */
+import Link from  "../flashduty/zh/1. On-call/5. 集成引导/8.6 其他集成/8.6.1 Link 集成指引.md?raw";
+/** ⬆️⬆️⬆️⬆️ Other ⬆️⬆️⬆️⬆️ */
+
 const docs = {
   CustomAlert,
   Email,
@@ -133,5 +137,6 @@ const docs = {
   Keep,
   ElastAlert2,
   DingtalkAlert,
+  Link,
 };
 export default docs;
