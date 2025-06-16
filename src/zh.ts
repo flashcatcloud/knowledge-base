@@ -137,6 +137,7 @@ const docs = {
   Keep,
   ElastAlert2,
   DingtalkAlert,
+  FeishuAlert,
   Link,
 };
 export default docs;
