@@ -116,6 +116,9 @@ Flashduty是一个类似pagerduty的SaaS服务，目前正在做i18n多语言适
 - "睡眠时间": "sleep"
 - "休息时间": "rest"
 - "响应投入": "response effort"
+- "错误聚合": "error grouping"
+- "指纹": "fingerprint"
+
 
 
 ## 文件结构
