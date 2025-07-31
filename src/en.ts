@@ -68,6 +68,8 @@ import AlertWebhook from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhook
 import IncidentWebhook from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.2 Incident webhook.md?raw";
 import CustomAction from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.3 Custom action.md?raw";
 import JiraSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.4 Jira sync.md?raw";
+import ServiceNowSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.5 ServiceNow sync.md?raw";
+
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
 
 /** 模版 */
@@ -140,5 +142,6 @@ const docs = {
   DingtalkAlert,
   FeishuAlert,
   Link,
+  ServiceNowSync,
 };
 export default docs;
