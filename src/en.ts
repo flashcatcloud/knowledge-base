@@ -47,7 +47,7 @@ import Keep from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integrat
 import ElastAlert2 from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.45 ElastAlert2 Integration.md?raw";
 import DingtalkAlert from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.46 DingtalkAlert Integration.md?raw";
 import FeishuAlert from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.47 Feishu(Lark)Alert Integration.md?raw";
-
+import VolcEngineDetect from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.48 Volcengine Detect Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -68,6 +68,8 @@ import AlertWebhook from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhook
 import IncidentWebhook from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.2 Incident webhook.md?raw";
 import CustomAction from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.3 Custom action.md?raw";
 import JiraSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.4 Jira sync.md?raw";
+import ServiceNowSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.5 ServiceNow sync.md?raw";
+
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
 
 /** 模版 */
@@ -139,6 +141,8 @@ const docs = {
   ElastAlert2,
   DingtalkAlert,
   FeishuAlert,
+  VolcEngineDetect,
   Link,
+  ServiceNowSync,
 };
 export default docs;
