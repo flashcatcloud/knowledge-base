@@ -48,6 +48,8 @@ import ElastAlert2 from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警�
 import DingtalkAlert from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.46 钉钉告警集成指引.md?raw";
 import FeishuAlert from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.47 飞书 Lark 告警集成指引.md?raw";
 import VolcEngineDetect from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.48 火山引擎云拨测集成指引.md?raw";
+import Monit from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.49 Monit 告警集成指引.md?raw";
+import Rum from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.50 RUM 告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -75,7 +77,7 @@ import ServiceNowSync from "../flashduty/zh/1. On-call/5. 集成引导/8.5 Webho
 import Templates from "../flashduty/zh/1. On-call/3. 配置管理/4.7 配置通知模板.md?raw";
 
 /** ⬇️⬇️⬇️⬇️ Other ⬇️⬇️⬇️⬇️ */
-import Link from  "../flashduty/zh/1. On-call/5. 集成引导/8.6 其他集成/8.6.1 Link 集成指引.md?raw";
+import Link from "../flashduty/zh/1. On-call/5. 集成引导/8.6 其他集成/8.6.1 Link 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ Other ⬆️⬆️⬆️⬆️ */
 
 const docs = {
@@ -142,5 +144,7 @@ const docs = {
   VolcEngineDetect,
   Link,
   ServiceNowSync,
+  Monit,
+  Rum,
 };
 export default docs;
