@@ -50,6 +50,7 @@ import FeishuAlert from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警�
 import VolcEngineDetect from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.48 火山引擎云拨测集成指引.md?raw";
 import Monit from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.49 Monit 告警集成指引.md?raw";
 import Rum from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.50 RUM 告警集成指引.md?raw";
+import Cloudflare from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.51 Cloudflare 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -146,5 +147,6 @@ const docs = {
   ServiceNowSync,
   Monit,
   Rum,
+  Cloudflare
 };
 export default docs;
