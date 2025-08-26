@@ -50,6 +50,7 @@ import FeishuAlert from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts i
 import VolcEngineDetect from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.48 Volcengine Detect Integration.md?raw";
 import Monit from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.49 Monit Alert Integration.md?raw";
 import Rum from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.50 RUM Alert Integration.md?raw";
+import Cloudflare from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.51 Cloudflare Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -147,6 +148,7 @@ const docs = {
   Link,
   ServiceNowSync,
   Monit,
-  Rum
+  Rum,
+  Cloudflare
 };
 export default docs;
