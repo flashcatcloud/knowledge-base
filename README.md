@@ -51,3 +51,7 @@ date: "2023-12-18T10:00:00+08:00"
 格式：https://docs.flashcat.cloud/[lang]/[product]/[md]
 示例：https://docs.flashcat.cloud/zh/flashduty/getting-started
 ```
+
+## Flashduty 内部文档
+
+[使用手册](https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vBzjpwpuoARLPA385daZ90D)
