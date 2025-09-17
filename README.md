@@ -55,3 +55,14 @@ date: "2023-12-18T10:00:00+08:00"
 ## Flashduty 内部文档
 
 [使用手册](https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vBzjpwpuoARLPA385daZ90D)
+
+- 润色文档
+
+在 cursor 中，选择优秀的模型之后，使用下面的prompt对中文文档进行润色：
+
+```
+请你严格依照 @polish_instructions.md 的要求，对文档 @your_doc_name 进行润色。
+```
+
+完成润色后，可在 VSCode / Cursor 中打开文档，然后在文档 tab 页中右击，点击 `格式化文档`。
+
