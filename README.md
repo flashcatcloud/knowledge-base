@@ -25,6 +25,12 @@
 
     - 不要大篇幅使用图片，避免显得没有内容，或UI频繁调整导致文档更新跟不上。
     - 对于高度大于宽度的图片，居中展示，不要铺满整个屏幕。
+    - 使用https://socialscreenshots.com/editor添加背景。
+        - 分辨率：Full HD 16/9
+        - 背景：Raycast 5
+        - 边距：10 圆角：30
+    - 使用aliyun oss upload image插件上传图片
+    - 使用vitepress preview插件实时预览
 
 - **更新和维护**：当产品有新的更新或改变时，产品文档应适时更新以保持准确性。
 
