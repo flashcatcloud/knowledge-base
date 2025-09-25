@@ -74,6 +74,7 @@ import IncidentWebhook from "../flashduty/en/1. On-call/8. Integrations/8.5 Webh
 import CustomAction from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.3 Custom action.md?raw";
 import JiraSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.4 Jira sync.md?raw";
 import ServiceNowSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.5 ServiceNow sync.md?raw";
+import ServiceDeskPlusSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.6 ServiceDesk Plus sync.md?raw";
 
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
 
@@ -152,6 +153,7 @@ const docs = {
   Monit,
   Rum,
   Cloudflare,
-  WecomAlert
+  WecomAlert,
+  ServiceDeskPlusSync
 };
 export default docs;
