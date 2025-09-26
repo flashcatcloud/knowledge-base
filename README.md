@@ -62,12 +62,24 @@ date: "2023-12-18T10:00:00+08:00"
 
 [使用手册](https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vBzjpwpuoARLPA385daZ90D)
 
+[文档截图规范](https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aaNxlelu0jnoZGR8gN7R35y)
+
 - 润色文档
 
-在 cursor 中，选择优秀的模型之后，使用下面的prompt对中文文档进行润色：
+在 cursor 中，首先选择优秀的模型，建议选择推理模型，例如 Gemini-2.5-pro。使用下面的prompt对中文文档进行润色：
 
 ```
 请你严格依照 @polish_instructions.md 的要求，对文档 @your_doc_name 进行润色。
 ```
 
 完成润色后，可在 VSCode / Cursor 中打开文档，然后在文档 tab 页中右击，点击 `格式化文档`。
+
+- i18n
+
+在 cursor 中，首先选择优秀的模型，建议选择推理模型，例如 Gemini-2.5-pro。使用下面的prompt对中文文档进行翻译：
+
+```
+请你严格依照 @polish_instructions.md 和 @i18n_instructions.md 的要求，将 @your_doc_name_ch.md 的内容翻译到 @your_doc_name_en.md 里。
+```
+
+完成润色后，可在 VSCode / Cursor 中打开文档，然后在文档 tab 页中右击，点击 `格式化文档`。**请校对针对关键操作的翻译是否和产品页面上的翻译保持一致。**
