@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "FlashDuty Documentation",
-  description: "FlashDuty Documentation Site",
+  title: "Flashduty Documentation",
+  description: "Flashduty Documentation Site",
   srcDir: "../flashduty",
   outDir: "../dist",
   base: "/",
@@ -17,7 +17,7 @@ export default defineConfig({
         {
           text: "概览",
           items: [
-            { text: "FlashDuty简介", link: "/zh/0. 概览/1. flashduty简介.md" },
+            { text: "Flashduty简介", link: "/zh/0. 概览/1. flashduty简介.md" },
             { text: "快速开始", link: "/zh/0. 概览/2. 快速开始.md" },
           ],
         },

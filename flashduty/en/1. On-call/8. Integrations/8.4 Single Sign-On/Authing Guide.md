@@ -7,7 +7,7 @@ url: "https://docs.flashcat.cloud/en/flashduty/authing-integration-guide"
 
 Quick Overview
 ---
-[Authing](https://www.authing.cn/) is an identity authentication and access control management provider. Through the Authing platform, you can implement login to the FlashDuty management console using OIDC, SAML2.0, or CAS protocols.
+[Authing](https://www.authing.cn/) is an identity authentication and access control management provider. Through the Authing platform, you can implement login to the Flashduty management console using OIDC, SAML2.0, or CAS protocols.
 
 ## Prerequisites
 ---
@@ -26,14 +26,14 @@ Quick Overview
 
 |Field|Description|
 |---|---|
-|App ID|Corresponds to FlashDuty Client ID|
-|APP Secret|Corresponds to FlashDuty Client Secret|
-|Issuer|Corresponds to FlashDuty Issuer|
+|App ID|Corresponds to Flashduty Client ID|
+|APP Secret|Corresponds to Flashduty Client Secret|
+|Issuer|Corresponds to Flashduty Issuer|
 |Authentication URL|Redirect URL for SSO login|
 
 ## Configuring OIDC Protocol
 ---
-### 1. Open [FlashDuty](console.flashcat.cloud) Console and Enable SSO Configuration
+### 1. Open [Flashduty](console.flashcat.cloud) Console and Enable SSO Configuration
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436946/image-preview" />
 
@@ -65,7 +65,7 @@ Quick Overview
 4.1 Create Users in Authing
 
 :::tip
-FlashDuty only supports email association, so users must be created with email addresses
+Flashduty only supports email association, so users must be created with email addresses
 :::
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436973/image-preview" />
@@ -83,7 +83,7 @@ FlashDuty only supports email association, so users must be created with email a
 <img alt="drawing" width="300" src="https://api.apifox.com/api/v1/projects/4169655/resources/436980/image-preview" />
 
 :::tip
-Use the user created in Authing to login to FlashDuty console
+Use the user created in Authing to login to Flashduty console
 :::
 
 ## Configuring SAML2.0 Protocol
@@ -99,7 +99,7 @@ You can create a new application or modify an existing one. This guide demonstra
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436984/image-preview" />
 
-1.2 Change FlashDuty's SSO protocol to SAML and copy the ACS URL
+1.2 Change Flashduty's SSO protocol to SAML and copy the ACS URL
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436987/image-preview" />
 
@@ -107,13 +107,13 @@ You can create a new application or modify an existing one. This guide demonstra
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436989/image-preview" />
 
-### 2. Configure in FlashDuty
+### 2. Configure in Flashduty
 
 2.1 Download metadata file by clicking the link and save locally
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436990/image-preview" />
 
-2.2 Upload to FlashDuty's SSO configuration and save
+2.2 Upload to Flashduty's SSO configuration and save
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436991/image-preview" />
 
@@ -122,12 +122,12 @@ You can create a new application or modify an existing one. This guide demonstra
 <img alt="drawing" width="300" src="https://api.apifox.com/api/v1/projects/4169655/resources/436980/image-preview" />
 
 :::tip
-These are the complete configuration steps for both methods. The configuration process involves both platforms, so please ensure no critical information is missed. If you encounter any issues during configuration, please contact FlashDuty technical support for assistance
+These are the complete configuration steps for both methods. The configuration process involves both platforms, so please ensure no critical information is missed. If you encounter any issues during configuration, please contact Flashduty technical support for assistance
 :::
 
 ## Configuring CAS Protocol
 ---
-### 1. Open [FlashDuty](console.flashcat.cloud) Console and Enable SSO Configuration
+### 1. Open [Flashduty](console.flashcat.cloud) Console and Enable SSO Configuration
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436946/image-preview" />
 
@@ -160,7 +160,7 @@ These are the complete configuration steps for both methods. The configuration p
 4.1 Create Users in Authing
 
 :::tip
-FlashDuty only supports email association, so users must be created with email addresses
+Flashduty only supports email association, so users must be created with email addresses
 :::
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436973/image-preview" />
@@ -174,5 +174,5 @@ FlashDuty only supports email association, so users must be created with email a
 <img alt="drawing" width="300" src="https://api.apifox.com/api/v1/projects/4169655/resources/436980/image-preview" />
 
 :::tip
-Use the user created in Authing to login to FlashDuty console
+Use the user created in Authing to login to Flashduty console
 :::

@@ -129,8 +129,8 @@ docker-compose down
 
 :::
 
-## FlashDuty 集成
-结合上述OpenLDAP配置，FlashDuty集成信息如下图所示：
+## Flashduty 集成
+结合上述OpenLDAP配置，Flashduty集成信息如下图所示：
 ![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/ldap-duty-config.png)
 
 

@@ -8,7 +8,7 @@ url: "https://docs.flashcat.cloud/zh/flashduty/authing-integration-guide"
 
 快速了解
 ---
-[Authing](https://www.authing.cn/)是一家提供身份识别和访问控制管理的供应商，通过Authing平台，可实现以OIDC、SAML2.0或CAS协议的方式登录FlashDuty管理控制台
+[Authing](https://www.authing.cn/)是一家提供身份识别和访问控制管理的供应商，通过Authing平台，可实现以OIDC、SAML2.0或CAS协议的方式登录Flashduty管理控制台
 
 ## 准备工作
 ---
@@ -27,16 +27,16 @@ url: "https://docs.flashcat.cloud/zh/flashduty/authing-integration-guide"
 
 |字段|描述|
 |---|---|
-|App ID|对应 FlashDuty 的 Client ID|
-|APP Secret|对应 FlashDuty 的 Client Secret|
-|Issuer|对应 FlashDuty 的 Issuer|
+|App ID|对应 Flashduty 的 Client ID|
+|APP Secret|对应 Flashduty 的 Client Secret|
+|Issuer|对应 Flashduty 的 Issuer|
 |认证地址|通过 SSO 登录时跳转的地址|
 
 
 
 ## 开始配置 OIDC 协议
 ---
-### 1. 打开 [FlashDuty](console.flashcat.cloud) 控制台并开启单点登录配置
+### 1. 打开 [Flashduty](console.flashcat.cloud) 控制台并开启单点登录配置
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436946/image-preview" />
 
@@ -68,7 +68,7 @@ url: "https://docs.flashcat.cloud/zh/flashduty/authing-integration-guide"
 4.1 在 Authing 中创建用户
 
 :::tip
-FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
+Flashduty 只支持用户邮箱关联，所以需要用邮箱创建用户
 :::
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436973/image-preview" />
@@ -88,7 +88,7 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 
 
 :::tip
-使用在 Authing 创建的用户，登录 FlashDuty 控制台
+使用在 Authing 创建的用户，登录 Flashduty 控制台
 :::
 
 
@@ -105,7 +105,7 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436984/image-preview" />
 
-1.2 将 FlashDuty 的单点登录协议改成 SAML 协议，并复制 acs 地址
+1.2 将 Flashduty 的单点登录协议改成 SAML 协议，并复制 acs 地址
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436987/image-preview" />
 
@@ -113,13 +113,13 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436989/image-preview" />
 
-### 2.在 FlashDuty 中配置
+### 2.在 Flashduty 中配置
 
 2.1 下载 metadata 数据，点击链接并保存到本地
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436990/image-preview" />
 
-2.2 上传到 FlashDuty 的单点登录配置中并保存
+2.2 上传到 Flashduty 的单点登录配置中并保存
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436991/image-preview" />
 
@@ -128,13 +128,13 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 <img alt="drawing" width="300" src="https://api.apifox.com/api/v1/projects/4169655/resources/436980/image-preview" />
 
 :::tip
-以上是两种方式的全部配置方式，两个平台在配置时有穿插，所以请务必小心不要遗忘关键信息，如在配置过程中有任何问题，可以联系 FlashDuty 技术支持协助
+以上是两种方式的全部配置方式，两个平台在配置时有穿插，所以请务必小心不要遗忘关键信息，如在配置过程中有任何问题，可以联系 Flashduty 技术支持协助
 :::
 
 
 ## 开始配置 CAS 协议
 ---
-### 1. 打开 [FlashDuty](console.flashcat.cloud) 控制台并开启单点登录配置
+### 1. 打开 [Flashduty](console.flashcat.cloud) 控制台并开启单点登录配置
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436946/image-preview" />
 
@@ -167,7 +167,7 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 4.1 在 Authing 中创建用户
 
 :::tip
-FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
+Flashduty 只支持用户邮箱关联，所以需要用邮箱创建用户
 :::
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/436973/image-preview" />
@@ -181,5 +181,5 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 <img alt="drawing" width="300" src="https://api.apifox.com/api/v1/projects/4169655/resources/436980/image-preview" />
 
 :::tip
-使用在 Authing 创建的用户，登录 FlashDuty 控制台
+使用在 Authing 创建的用户，登录 Flashduty 控制台
 :::

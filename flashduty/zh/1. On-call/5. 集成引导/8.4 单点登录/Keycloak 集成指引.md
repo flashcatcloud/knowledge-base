@@ -18,8 +18,8 @@ Keycloak 是一个开源的身份和访问管理解决方案，它提供了一�
 
 ## 基于 SAML2.0 协议
 ---
-### 1.登录 FlashDuty 控制台
-1.1 从 FlashDuty 获取 acs 地址（第2步会用到）
+### 1.登录 Flashduty 控制台
+1.1 从 Flashduty 获取 acs 地址（第2步会用到）
 1.2 路径：访问控制=>单点登录=>设置=>SAML2.0协议=>Flashduty服务提供商信息=>Assertion Consumer Service URL
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437194/image-preview" />
@@ -32,7 +32,7 @@ Keycloak 是一个开源的身份和访问管理解决方案，它提供了一�
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437197/image-preview" />
 
-2.4 Valid redirect URIs： 填写从 FlashDuty 获取的 acs 地址
+2.4 Valid redirect URIs： 填写从 Flashduty 获取的 acs 地址
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437029/image-preview" />
 
@@ -83,7 +83,7 @@ src="https://api.apifox.com/api/v1/projects/4169655/resources/437038/image-previ
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437039/image-preview" />
 
-4.2 上传 XML 文件到 FlashDuty 的单点登录配置中
+4.2 上传 XML 文件到 Flashduty 的单点登录配置中
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437040/image-preview" />
 
@@ -100,8 +100,8 @@ src="https://api.apifox.com/api/v1/projects/4169655/resources/437038/image-previ
 
 ## 基于 OIDC 协议
 ---
-### 1.登录 FlashDuty 平台
-1.1 从FlashDuty获取Redirect URL（第2步会用到）
+### 1.登录 Flashduty 平台
+1.1 从Flashduty获取Redirect URL（第2步会用到）
 2.2 路径：**访问控制=>单点登录=>设置=>OIDC协议=>Flashduty 服务提供商信息==>Redirect URL**
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437183/image-preview" />
@@ -132,7 +132,7 @@ src="https://api.apifox.com/api/v1/projects/4169655/resources/437038/image-previ
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437187/image-preview" />
 
-### 4.FlashDuty 单点登录配置样式
+### 4.Flashduty 单点登录配置样式
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437188/image-preview" />
 
