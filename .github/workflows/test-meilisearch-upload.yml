@@ -1,0 +1,72 @@
+# This workflow uploads markdown documents to Meilisearch when code is merged to test branch
+
+name: 测试环境-上传到Meilisearch
+
+on:
+  push:
+    branches: [test]
+  workflow_dispatch:
+
+jobs:
+  upload-to-meilisearch:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Check required tools
+        run: |
+          # Check if jq is installed
+          if ! command -v jq &> /dev/null; then
+            echo "Installing jq..."
+            if command -v apt-get &> /dev/null; then
+              sudo apt-get update && sudo apt-get install -y jq
+            elif command -v yum &> /dev/null; then
+              sudo yum install -y jq
+            elif command -v brew &> /dev/null; then
+              brew install jq
+            else
+              echo "Error: Cannot install jq. Please install it manually."
+              exit 1
+            fi
+          fi
+          
+          # Check if curl is available
+          if ! command -v curl &> /dev/null; then
+            echo "Error: curl is required but not installed."
+            exit 1
+          fi
+          
+          # Check if openssl is available (for MD5 hash generation)
+          if ! command -v openssl &> /dev/null; then
+            echo "Error: openssl is required but not installed."
+            exit 1
+          fi
+
+      - name: Validate environment variables
+        run: |
+          if [[ -z "$MEILI_ENDPOINT" || -z "$MEILI_API_KEY" || -z "$MEILI_INDEX" ]]; then
+            echo "Error: Missing required environment variables."
+            echo "Please ensure MEILI_ENDPOINT, MEILI_API_KEY, and MEILI_INDEX are set."
+            exit 1
+          fi
+          echo "Environment variables validated successfully."
+        env:
+          MEILI_ENDPOINT: ${{ secrets.MEILI_ENDPOINT_TEST }}
+          MEILI_API_KEY: ${{ secrets.MEILI_API_KEY_TEST }}
+          MEILI_INDEX: ${{ secrets.MEILI_INDEX_TEST }}
+
+      - name: Upload documents to Meilisearch
+        run: |
+          chmod +x ./upload.sh
+          ./upload.sh
+        env:
+          MEILI_ENDPOINT: ${{ secrets.MEILI_ENDPOINT_TEST }}
+          MEILI_API_KEY: ${{ secrets.MEILI_API_KEY_TEST }}
+          MEILI_INDEX: ${{ secrets.MEILI_INDEX_TEST }}
+
+      - name: Upload summary
+        if: always()
+        run: |
+          echo "Meilisearch upload workflow completed."
+          echo "Check the logs above for detailed results."

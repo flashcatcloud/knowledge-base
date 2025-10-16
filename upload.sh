@@ -36,7 +36,20 @@ upload_document() {
       --data-binary "$json_payload")
 
     # Check if the upload was successful by inspecting the response.
-    if echo "$response" | jq -e '.taskUid' > /dev/null 2>&1; then
+    # First check if response is empty
+    if [ -z "$response" ]; then
+        echo "✗ 上传失败: $title" >&2
+        echo "注意: 响应为空，可能是网络连接问题" >&2
+        return 1
+    fi
+    
+    # Temporarily disable exit on error for this check
+    set +e
+    echo "$response" | jq -e '.taskUid' > /dev/null 2>&1
+    jq_result=$?
+    set -e
+    
+    if [ $jq_result -eq 0 ]; then
         echo "✓ 成功上传: $title"
         return 0
     else
@@ -83,13 +96,17 @@ process_directory() {
         # Generate MD5 hash for ID
         id=$(echo -n "$title" | openssl md5 | awk '{print $NF}')
 
+        # Extract URL from markdown frontmatter, defaults to empty string if not found
+        doc_url=$(grep -m 1 '^url:' "$file" | sed -n 's/url: "\(.*\)"/\1/p')
+
         # Create JSON payload for single document
         if json_payload=$(jq -n \
             --arg id "$id" \
             --arg title "$title" \
             --rawfile content "$file" \
             --arg locale "$locale" \
-            '{id: $id, title: $title, content: $content, locale: $locale}' 2>/dev/null); then
+            --arg url "$doc_url" \
+            '{id: $id, title: $title, content: $content, locale: $locale, url: $url}' 2>/dev/null); then
             
             # Upload this document
             if upload_document "$json_payload" "$title"; then
