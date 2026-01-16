@@ -2,7 +2,7 @@
 title: "RUM 分析看板"
 description: "本文档详细介绍 Flashduty RUM 分析看板的功能和使用方法。"
 date: "2024-05-09T10:00:00+08:00"
-url: "https://docs.flashcat.cloud/zh/flashduty/rum/analysis-dashboard"
+url: "https://docs.flashcat.cloud/zh/flashduty/rum/web-analysis-dashboard"
 ---
 
 ## 概述
