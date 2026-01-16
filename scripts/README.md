@@ -4,9 +4,9 @@
 
 ## 脚本列表
 
-| 脚本 | 功能 |
-|------|------|
-| `apifox-rename.mjs` | 批量去掉文档名称中的数字前缀 |
+| 脚本                  | 功能                             |
+| --------------------- | -------------------------------- |
+| `apifox-rename.mjs`   | 批量去掉文档名称中的数字前缀     |
 | `apifox-seo-sync.mjs` | 从文档 frontmatter 同步 SEO 配置 |
 
 ## 前置准备
@@ -78,6 +78,7 @@ node scripts/apifox-rename.mjs apply
 ### 匹配规则
 
 去掉以下格式的前缀：
+
 - `1. ` → 空
 - `1.2 ` → 空
 - `1.2.3 ` → 空
@@ -113,6 +114,7 @@ url: "https://docs.flashcat.cloud/en/path/to/doc"
 ```
 
 提取规则：
+
 - `title` → SEO 标题
 - `url` → 去掉域名后作为 SEO 路径（如 `/en/path/to/doc`）
 
@@ -120,12 +122,12 @@ url: "https://docs.flashcat.cloud/en/path/to/doc"
 
 ## API 参考
 
-| 操作 | Method | Endpoint |
-|------|--------|----------|
-| 获取文档列表 | GET | `/api/v1/docs?locale=zh-CN` |
-| 修改文档名称 | PUT | `/api/v1/doc/{docId}?locale=zh-CN` |
-| 获取 SEO 配置 | GET | `/api/v1/projects/{projectId}/seo-infos?locale=zh-CN` |
-| 更新 SEO 配置 | POST | `/api/v1/projects/{projectId}/seo-infos?locale=zh-CN` |
+| 操作          | Method | Endpoint                                              |
+| ------------- | ------ | ----------------------------------------------------- |
+| 获取文档列表  | GET    | `/api/v1/docs?locale=zh-CN`                           |
+| 修改文档名称  | PUT    | `/api/v1/doc/{docId}?locale=zh-CN`                    |
+| 获取 SEO 配置 | GET    | `/api/v1/projects/{projectId}/seo-infos?locale=zh-CN` |
+| 更新 SEO 配置 | POST   | `/api/v1/projects/{projectId}/seo-infos?locale=zh-CN` |
 
 ### 必需的请求头
 
