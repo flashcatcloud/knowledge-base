@@ -2,7 +2,7 @@
 title: "RUM Analysis Dashboard"
 description: "This document details the features and usage of the Flashduty RUM analysis dashboard."
 date: "2024-05-09T10:00:00+08:00"
-url: "https://docs.flashcat.cloud/en/flashduty/rum/analysis-dashboard?nav=01JCQ7A4N4WRWNXW8EWEHXCMF5"
+url: "https://docs.flashcat.cloud/en/flashduty/rum/web-analysis-dashboard?nav=01JCQ7A4N4WRWNXW8EWEHXCMF5"
 ---
 
 ## Overview
@@ -31,7 +31,7 @@ The overview module focuses on the core metrics of your application across multi
 The performance analysis module focuses on full-chain monitoring of application loading and interaction experience, including:
 
 - **Page Performance**: Monitor trends and sample distribution of core page loading metrics such as FCP, LCP, CLS, and FCP.
-- **Long Tasks**: A [long animation frame](https://developer.chrome.com/docs/web-platform/long-animation-frames#long-frames-api)  is when a rendering update is delayed beyond 50 milliseconds.
+- **Long Tasks**: A [long animation frame](https://developer.chrome.com/docs/web-platform/long-animation-frames#long-frames-api) is when a rendering update is delayed beyond 50 milliseconds.
 - **XHR and Fetch Requests**: Analyze the loading performance of XHR and Fetch interfaces to locate slow interfaces.
 - **Static Resources**: Analyze the loading time of static resources to identify performance bottlenecks during application loading.
 
