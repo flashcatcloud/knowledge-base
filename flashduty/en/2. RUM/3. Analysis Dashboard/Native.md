@@ -73,7 +73,7 @@ Counts memory usage details by view name:
 - **Peak Memory**: Records memory usage peaks during view runtime, identifying memory pressure peaks to prevent system termination due to insufficient memory (OOM).
 - **P75 Memory**: Shows P75 percentile of memory usage, reflecting memory usage for most users, more representative of real experience than average values.
 
-For detailed performance metric descriptions, see [Android Data Collection](../2.%20SDK%20Integration/Android/3.%20Data%20Collection.md) and [iOS Data Collection](../2.%20SDK%20Integration/iOS/3.%20Data%20Collection.md).
+For detailed performance metric descriptions, see [Android Data Collection](https://docs.flashcat.cloud/en/flashduty/rum/android-data-collected) and [iOS Data Collection](https://docs.flashcat.cloud/en/flashduty/rum/ios-data-collected).
 
 ### 3. Error Analysis — Fast Location and Diagnosis of Errors
 
@@ -132,7 +132,7 @@ Shows ranking of issues affecting the most users, each Issue is an aggregated er
 - **System Version Exception Distribution (Pie Chart)**: Counts exception distribution across different OS versions (e.g., Android 11, Android 12, iOS 15, etc.), identifying system compatibility issues.
 - **System Version Exception Trend (Stacked Area Chart)**: Monitors exception changes for each system version over time, providing data support for system compatibility optimization.
 
-For in-depth analysis of specific errors, see [Error Tracking](https://docs.flashcat.cloud/en/flashduty/rum/error-tracking) to learn how to investigate key errors, view error stacks, track appearance of new errors, and verify effectiveness after problem fixes.
+For in-depth analysis of specific errors, see [Error Tracking](https://docs.flashcat.cloud/en/flashduty/rum/error-tracking-explorer) to learn how to investigate key errors, view error stacks, track appearance of new errors, and verify effectiveness after problem fixes.
 
 ### 4. Resource Analysis — Fine-grained Network Performance Optimization
 
@@ -368,8 +368,8 @@ These are all important metrics for measuring app smoothness:
 
 1. **Logged-in User Identification**: For apps requiring user login (e.g., e-commerce, social, finance), you can call SDK's user identification method after user login:
 
-   - Android: Refer to [Android User Session Configuration](https://docs.flashcat.cloud/en/flashduty/rum/android/advanced-configuration#user-sessions)
-   - iOS: Refer to [iOS User Session Configuration](https://docs.flashcat.cloud/en/flashduty/rum/ios/advanced-configuration#user-sessions)
+   - Android: Refer to [Android User Session Configuration](https://docs.flashcat.cloud/en/flashduty/rum/android-advanced-configuration#user-sessions)
+   - iOS: Refer to [iOS User Session Configuration](https://docs.flashcat.cloud/en/flashduty/rum/ios-advanced-configuration#user-sessions)
 
 2. **Device Fingerprint Identification**: For apps without login state, recommend generating stable device fingerprints based on device information and reporting user identifiers:
    - **Android**: Can use Android ID, IMEI (requires permission), Advertising ID, etc.
@@ -397,20 +397,16 @@ Flashduty RUM typically completes collection and display within 1-3 minutes afte
 
 ### SDK Integration and Configuration
 
-- [Android SDK Integration Guide](../2.%20SDK%20Integration/Android/1.%20SDK%20Integration.md) - Learn how to integrate RUM SDK in Android apps
-- [iOS SDK Integration Guide](../2.%20SDK%20Integration/iOS/1.%20SDK%20Integration.md) - Learn how to integrate RUM SDK in iOS apps
-- [Android Advanced Configuration](../2.%20SDK%20Integration/Android/2.%20Advanced%20Configuration.md) - In-depth configuration of Android RUM SDK advanced features
-- [iOS Advanced Configuration](../2.%20SDK%20Integration/iOS/2.%20Advanced%20Configuration.md) - In-depth configuration of iOS RUM SDK advanced features
-- [Android Data Collection](../2.%20SDK%20Integration/Android/3.%20Data%20Collection.md) - Understand data types collected by Android RUM SDK
-- [iOS Data Collection](../2.%20SDK%20Integration/iOS/3.%20Data%20Collection.md) - Understand data types collected by iOS RUM SDK
+- [Android SDK Integration Guide](https://docs.flashcat.cloud/en/flashduty/rum/android-sdk-integration) - Learn how to integrate RUM SDK in Android apps
+- [iOS SDK Integration Guide](https://docs.flashcat.cloud/en/flashduty/rum/ios-sdk-integration) - Learn how to integrate RUM SDK in iOS apps
+- [Android Advanced Configuration](https://docs.flashcat.cloud/en/flashduty/rum/android-advanced-configuration) - In-depth configuration of Android RUM SDK advanced features
+- [iOS Advanced Configuration](https://docs.flashcat.cloud/en/flashduty/rum/ios-advanced-configuration) - In-depth configuration of iOS RUM SDK advanced features
+- [Android Data Collection](https://docs.flashcat.cloud/en/flashduty/rum/android-data-collected) - Understand data types collected by Android RUM SDK
+- [iOS Data Collection](https://docs.flashcat.cloud/en/flashduty/rum/ios-data-collected) - Understand data types collected by iOS RUM SDK
 
 ### Data Analysis and Monitoring
 
-- [RUM Explorer Usage Guide](https://docs.flashcat.cloud/en/flashduty/rum/explorer) - Learn how to use RUM Explorer for in-depth data analysis
-- [Error Tracking](https://docs.flashcat.cloud/en/flashduty/rum/error-tracking) - Master error tracking and debugging techniques
+- [RUM Explorer Usage Guide](https://docs.flashcat.cloud/en/flashduty/rum/rum-explorer) - Learn how to use RUM Explorer for in-depth data analysis
+- [Error Tracking](https://docs.flashcat.cloud/en/flashduty/rum/error-tracking-explorer) - Master error tracking and debugging techniques
 - [Error Grouping Strategy](https://docs.flashcat.cloud/en/flashduty/rum/error-grouping) - Understand error aggregation mechanism
 
-### Performance Optimization
-
-- [Android Performance Optimization Best Practices](https://docs.flashcat.cloud/en/flashduty/rum/android/performance-optimization)
-- [iOS Performance Optimization Best Practices](https://docs.flashcat.cloud/en/flashduty/rum/ios/performance-optimization)

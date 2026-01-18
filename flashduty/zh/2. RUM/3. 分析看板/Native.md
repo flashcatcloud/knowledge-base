@@ -73,7 +73,7 @@ Flashduty Native RUM 分析看板提供了开箱即用的可视化仪表板，�
 - **峰值内存**：记录各视图运行期间的内存使用峰值，识别内存压力高峰，预防因内存不足导致的系统终止（OOM）。
 - **P75 内存**：显示内存占用的 P75 分位数，反映大部分用户的内存使用情况，比平均值更能代表真实体验。
 
-有关性能指标的详细说明，请参阅 [Android 数据收集](../2.%20SDK接入/Android/3.%20数据收集.md) 和 [iOS 数据收集](../2.%20SDK接入/iOS/3.%20数据收集.md)。
+有关性能指标的详细说明，请参阅 [Android 数据收集](https://docs.flashcat.cloud/zh/flashduty/rum/android-data-collected) 和 [iOS 数据收集](https://docs.flashcat.cloud/zh/flashduty/rum/ios-data-collected)。
 
 ### 3. 异常分析 — 快速定位与诊断错误
 
@@ -132,7 +132,7 @@ Flashduty Native RUM 分析看板提供了开箱即用的可视化仪表板，�
 - **系统版本异常分布（饼图）**：统计不同操作系统版本（如 Android 11、Android 12、iOS 15 等）的异常分布情况，识别系统兼容性问题。
 - **系统版本异常趋势（堆叠面积图）**：监控各系统版本异常随时间的变化，为系统兼容性优化提供数据支撑。
 
-如需深入分析具体错误，可参阅[错误跟踪](https://docs.flashcat.cloud/zh/flashduty/rum/error-tracking)了解如何调查关键错误、查看错误堆栈、追踪新错误的出现，以及如何在问题修复后验证效果。
+如需深入分析具体错误，可参阅[错误跟踪](https://docs.flashcat.cloud/zh/flashduty/rum/error-tracking-explorer)了解如何调查关键错误、查看错误堆栈、追踪新错误的出现，以及如何在问题修复后验证效果。
 
 ### 4. 资源分析 — 精细化网络性能优化
 
@@ -347,8 +347,8 @@ Flashduty Native RUM 分析看板提供了开箱即用的可视化仪表板，�
 
 1. **登录态用户识别**：对于需要用户登录的应用（如电商、社交、金融等），您可以在用户登录后调用 SDK 的用户标识方法：
 
-   - Android: 参考 [Android 用户会话配置](https://docs.flashcat.cloud/zh/flashduty/rum/android/advanced-configuration#用户会话)
-   - iOS: 参考 [iOS 用户会话配置](https://docs.flashcat.cloud/zh/flashduty/rum/ios/advanced-configuration#用户会话)
+   - Android: 参考 [Android 用户会话配置](https://docs.flashcat.cloud/zh/flashduty/rum/android-advanced-configuration#用户会话)
+   - iOS: 参考 [iOS 用户会话配置](https://docs.flashcat.cloud/zh/flashduty/rum/ios-advanced-configuration#用户会话)
 
 2. **设备指纹识别**：对于无登录态的应用，推荐基于设备信息生成稳定的设备指纹并上报用户标识：
    - **Android**：可使用 Android ID、IMEI（需权限）、广告 ID 等
@@ -374,20 +374,20 @@ Flashduty RUM 通常在数据产生后的 1-3 分钟内完成采集和展示。�
 
 ### SDK 接入与配置
 
-- [Android SDK 接入指南](../2.%20SDK接入/Android/1.%20SDK接入.md) - 了解如何在 Android 应用中集成 RUM SDK
-- [iOS SDK 接入指南](../2.%20SDK接入/iOS/1.%20SDK接入.md) - 了解如何在 iOS 应用中集成 RUM SDK
-- [Android 高级配置](../2.%20SDK接入/Android/2.%20高级配置.md) - 深入配置 Android RUM SDK 高级功能
-- [iOS 高级配置](../2.%20SDK接入/iOS/2.%20高级配置.md) - 深入配置 iOS RUM SDK 高级功能
-- [Android 数据收集](../2.%20SDK接入/Android/3.%20数据收集.md) - 了解 Android RUM SDK 收集的数据类型
-- [iOS 数据收集](../2.%20SDK接入/iOS/3.%20数据收集.md) - 了解 iOS RUM SDK 收集的数据类型
+- [Android SDK 接入指南](https://docs.flashcat.cloud/zh/flashduty/rum/android-sdk-integration) - 了解如何在 Android 应用中集成 RUM SDK
+- [iOS SDK 接入指南](https://docs.flashcat.cloud/zh/flashduty/rum/ios-sdk-integration) - 了解如何在 iOS 应用中集成 RUM SDK
+- [Android 高级配置](https://docs.flashcat.cloud/zh/flashduty/rum/android-advanced-configuration) - 深入配置 Android RUM SDK 高级功能
+- [iOS 高级配置](https://docs.flashcat.cloud/zh/flashduty/rum/ios-advanced-configuration) - 深入配置 iOS RUM SDK 高级功能
+- [Android 数据收集](https://docs.flashcat.cloud/zh/flashduty/rum/android-data-collected) - 了解 Android RUM SDK 收集的数据类型
+- [iOS 数据收集](https://docs.flashcat.cloud/zh/flashduty/rum/ios-data-collected) - 了解 iOS RUM SDK 收集的数据类型
 
 ### 数据分析与监控
 
-- [RUM Explorer 使用指南](https://docs.flashcat.cloud/zh/flashduty/rum/explorer) - 学习如何使用 RUM Explorer 深入分析数据
-- [错误跟踪](https://docs.flashcat.cloud/zh/flashduty/rum/error-tracking) - 掌握错误追踪和调试技巧
+- [RUM Explorer 使用指南](https://docs.flashcat.cloud/zh/flashduty/rum/rum-explorer) - 学习如何使用 RUM Explorer 深入分析数据
+- [错误跟踪](https://docs.flashcat.cloud/zh/flashduty/rum/error-tracking-explorer) - 掌握错误追踪和调试技巧
 - [异常聚合策略](https://docs.flashcat.cloud/zh/flashduty/rum/error-grouping) - 理解错误聚合机制
 
-### 性能优化
+### 高级配置
 
-- [Android 性能优化最佳实践](https://docs.flashcat.cloud/zh/flashduty/rum/android/performance-optimization)
-- [iOS 性能优化最佳实践](https://docs.flashcat.cloud/zh/flashduty/rum/ios/performance-optimization)
+- [Android SDK 高级配置](https://docs.flashcat.cloud/zh/flashduty/rum/android-advanced-configuration)
+- [iOS SDK 高级配置](https://docs.flashcat.cloud/zh/flashduty/rum/ios-advanced-configuration)

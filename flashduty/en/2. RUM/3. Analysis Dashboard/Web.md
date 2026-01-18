@@ -107,5 +107,5 @@ For detailed information, see [Access-Control-Allow-Origin header](https://devel
 
 ### How to collect user information
 
-1. **Logged-in User Identification**: For applications requiring user login (such as SaaS products, membership systems, e-commerce platforms, etc.), you can refer to [User Identification Collection](https://docs.flashcat.cloud/en/flashduty/rum/advanced-configuration?nav=01JCQ7A4N4WRWNXW8EWEHXCMF5#user-sessions)
+1. **Logged-in User Identification**: For applications requiring user login (such as SaaS products, membership systems, e-commerce platforms, etc.), you can refer to [User Identification Collection](https://docs.flashcat.cloud/en/flashduty/rum/web-advanced-configuration#user-sessions)
 2. **Device Fingerprint Identification**: For applications without login state (such as corporate websites, marketing pages, public content platforms, etc.), it is recommended to generate stable fingerprints based on browser characteristics, device information, and other multi-dimensional data and report user identifiers
