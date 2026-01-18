@@ -200,6 +200,7 @@ Learn more about [Error Grouping Strategy](https://docs.flashcat.cloud/en/flashd
 ### How to optimize app startup performance?
 
 1. **Analyze Startup Data**:
+
    - View "Application Startup Time (P75)" metric to understand most users' startup experience
    - Evaluate optimization effectiveness through "Startup Time Trend Chart", avoiding performance regression
    - View "Sample Distribution Histogram" to identify long-tail issues, ensuring minority users also get good experience
@@ -211,6 +212,7 @@ Learn more about [Error Grouping Strategy](https://docs.flashcat.cloud/en/flashd
 4. **Simplify First Screen Layout**: Reduce homepage view hierarchy complexity, decrease first render time.
 
 5. **Use Startup Optimization Tools**:
+
    - Android: Use App Startup Library to manage component initialization order
    - iOS: Utilize Lazy Initialization to defer non-critical component initialization
 
@@ -270,16 +272,19 @@ These are all important metrics for measuring app smoothness:
 1. **Locate Slow Pages**: Identify slowest loading pages through "Page Loading Duration Ranking", prioritize optimization.
 
 2. **Optimize Data Loading**:
+
    - Adopt pagination loading or virtual list technology, avoid loading large amounts of data at once
    - Use data preloading and caching strategies to reduce wait time
    - Optimize network requests, merge API calls
 
 3. **Simplify Page Layout**:
+
    - Reduce view hierarchy nesting, lower layout calculation complexity
    - Avoid excessive use of transparent views and rounded corner effects
    - Defer loading of non-first-screen content
 
 4. **Optimize Image Resources**:
+
    - Use appropriate image formats and sizes
    - Adopt progressive loading or placeholder images
    - Compress and cache images
@@ -297,12 +302,14 @@ These are all important metrics for measuring app smoothness:
 **Common ANR Causes**:
 
 1. **Main Thread Executing Time-consuming Operations**:
+
    - Synchronous network requests
    - Large file read/write
    - Complex calculations
    - Database operations
 
 2. **Main Thread Waiting for Locks**:
+
    - Deadlock between threads
    - Waiting for other threads to release locks
 
@@ -313,16 +320,19 @@ These are all important metrics for measuring app smoothness:
 **How to Reduce ANR Rate**:
 
 1. **Avoid Main Thread Blocking**:
+
    - Move time-consuming operations to background threads (use AsyncTask, Coroutines, RxJava, etc.)
    - Use asynchronous APIs instead of synchronous APIs
    - Avoid network requests and file I/O on main thread
 
 2. **Optimize Lock Usage**:
+
    - Reduce lock holding time
    - Avoid nested locks
    - Use lock-free data structures
 
 3. **Optimize Lifecycle Methods**:
+
    - Lifecycle methods like onCreate/onResume should return quickly
    - Delay loading of non-critical resources
 
@@ -338,12 +348,14 @@ These are all important metrics for measuring app smoothness:
 2. **Optimize Main Thread Tasks**: Move time-consuming operations (like network requests, database read/write, complex calculations, large file I/O) to background threads.
 
 3. **Optimize UI Rendering**:
+
    - Reduce view hierarchy, lower layout complexity
    - Avoid complex view calculations on main thread
    - Use optimization techniques for RecyclerView (Android) or UITableView/UICollectionView (iOS)
    - Properly use hardware acceleration
 
 4. **Optimize List Performance**:
+
    - Implement view reuse mechanism
    - Optimize item layout complexity
    - Avoid time-consuming operations during item binding
@@ -355,6 +367,7 @@ These are all important metrics for measuring app smoothness:
 ### How to collect user information?
 
 1. **Logged-in User Identification**: For apps requiring user login (e.g., e-commerce, social, finance), you can call SDK's user identification method after user login:
+
    - Android: Refer to [Android User Session Configuration](https://docs.flashcat.cloud/en/flashduty/rum/android/advanced-configuration#user-sessions)
    - iOS: Refer to [iOS User Session Configuration](https://docs.flashcat.cloud/en/flashduty/rum/ios/advanced-configuration#user-sessions)
 
