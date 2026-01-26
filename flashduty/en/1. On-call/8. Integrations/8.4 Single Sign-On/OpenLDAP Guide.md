@@ -129,8 +129,8 @@ Under `User Path` (e.g., cn=flash duty under ou=people in the above image) -> `A
 
 :::
 
-## FlashDuty Integration
-Based on the above OpenLDAP configuration, the FlashDuty integration information is shown in the following image:
+## Flashduty Integration
+Based on the above OpenLDAP configuration, the Flashduty integration information is shown in the following image:
 ![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/ldap-duty-config.png)
 
 

@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: FlashDuty
+  name: Flashduty
   text: 文档中心
-  tagline: FlashDuty 平台完整文档
+  tagline: Flashduty 平台完整文档
   actions:
     - theme: brand
       text: 开始阅读

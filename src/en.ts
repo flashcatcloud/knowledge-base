@@ -52,6 +52,7 @@ import Monit from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integra
 import Rum from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.50 RUM Alert Integration.md?raw";
 import Cloudflare from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.51 Cloudflare Integration.md?raw";
 import WecomAlert from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.52 WecomAlert Integration.md?raw";
+import Harbor from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.53 Harbor Alert Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -73,6 +74,7 @@ import IncidentWebhook from "../flashduty/en/1. On-call/8. Integrations/8.5 Webh
 import CustomAction from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.3 Custom action.md?raw";
 import JiraSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.4 Jira sync.md?raw";
 import ServiceNowSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.5 ServiceNow sync.md?raw";
+import ServiceDeskPlusSync from "../flashduty/en/1. On-call/8. Integrations/8.5 Webhooks/8.5.6 ServiceDesk Plus sync.md?raw";
 
 /** ⬆️⬆️⬆️⬆️ Webhooks ⬆️⬆️⬆️⬆️ */
 
@@ -151,6 +153,8 @@ const docs = {
   Monit,
   Rum,
   Cloudflare,
-  WecomAlert
+  WecomAlert,
+  ServiceDeskPlusSync,
+  Harbor
 };
 export default docs;

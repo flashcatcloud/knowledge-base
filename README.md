@@ -25,6 +25,12 @@
 
     - 不要大篇幅使用图片，避免显得没有内容，或UI频繁调整导致文档更新跟不上。
     - 对于高度大于宽度的图片，居中展示，不要铺满整个屏幕。
+    - 使用https://socialscreenshots.com/editor添加背景。
+        - 分辨率：Full HD 16/9
+        - 背景：Raycast 5
+        - 边距：10 圆角：30
+    - 使用aliyun oss upload image插件上传图片
+    - 使用vitepress preview插件实时预览
 
 - **更新和维护**：当产品有新的更新或改变时，产品文档应适时更新以保持准确性。
 
@@ -39,7 +45,7 @@
 
 ```
 ---
-title: "FlashDuty Changelog 2023-12-18 | 值班管理、服务日历、自定义操作和邮件集成"
+title: "Flashduty Changelog 2023-12-18 | 值班管理、服务日历、自定义操作和邮件集成"
 description: "支持更高级的值班管理功能，支付服务日历、自定义操作和邮件集成"
 date: "2023-12-18T10:00:00+08:00"
 ---
@@ -56,9 +62,11 @@ date: "2023-12-18T10:00:00+08:00"
 
 [使用手册](https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vBzjpwpuoARLPA385daZ90D)
 
+[文档截图规范](https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aaNxlelu0jnoZGR8gN7R35y)
+
 - 润色文档
 
-在 cursor 中，选择优秀的模型之后，使用下面的prompt对中文文档进行润色：
+在 cursor 中，首先选择优秀的模型，建议选择推理模型，例如 Gemini-2.5-pro。使用下面的prompt对中文文档进行润色：
 
 ```
 请你严格依照 @polish_instructions.md 的要求，对文档 @your_doc_name 进行润色。
@@ -69,4 +77,13 @@ date: "2023-12-18T10:00:00+08:00"
 
 =======
 完成润色后，可在 VSCode / Cursor 中打开文档，然后在文档 tab 页中右击，点击 `格式化文档`。
->>>>>>> f-warroom
+
+- i18n
+
+在 cursor 中，首先选择优秀的模型，建议选择推理模型，例如 Gemini-2.5-pro。使用下面的prompt对中文文档进行翻译：
+
+```
+请你严格依照 @polish_instructions.md 和 @i18n_instructions.md 的要求，将 @your_doc_name_ch.md 的内容翻译到 @your_doc_name_en.md 里。
+```
+
+完成润色后，可在 VSCode / Cursor 中打开文档，然后在文档 tab 页中右击，点击 `格式化文档`。**请校对针对关键操作的翻译是否和产品页面上的翻译保持一致。**

@@ -18,8 +18,8 @@ This article does not cover Keycloak deployment and detailed explanations. For m
 
 ## SAML 2.0 Protocol Configuration
 ---
-### 1. Log in to FlashDuty Console
-1.1 Get the ACS URL from FlashDuty (needed in step 2)
+### 1. Log in to Flashduty Console
+1.1 Get the ACS URL from Flashduty (needed in step 2)
 1.2 Path: Access Control => Single Sign-On => Settings => SAML 2.0 Protocol => Flashcat Service Provider Information => Assertion Consumer Service URL
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437194/image-preview" />
@@ -31,7 +31,7 @@ This article does not cover Keycloak deployment and detailed explanations. For m
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437197/image-preview" />
 
-2.4 Valid redirect URIs: Enter the ACS URL obtained from FlashDuty
+2.4 Valid redirect URIs: Enter the ACS URL obtained from Flashduty
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437029/image-preview" />
 
@@ -82,7 +82,7 @@ The downloaded file is a compressed archive containing two XML files. You only n
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437039/image-preview" />
 
-4.2 Upload the XML file to FlashDuty's SSO configuration
+4.2 Upload the XML file to Flashduty's SSO configuration
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437040/image-preview" />
 
@@ -98,8 +98,8 @@ The downloaded file is a compressed archive containing two XML files. You only n
 
 ## OIDC Protocol Configuration
 ---
-### 1. Log in to FlashDuty Platform
-1.1 Get Redirect URL from FlashDuty (needed in step 2)
+### 1. Log in to Flashduty Platform
+1.1 Get Redirect URL from Flashduty (needed in step 2)
 2.2 Path: **Access Control => Single Sign-On => Settings => OIDC Protocol => Flashcat Service Provider Information => Redirect URL**
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437183/image-preview" />
@@ -130,7 +130,7 @@ The downloaded file is a compressed archive containing two XML files. You only n
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437187/image-preview" />
 
-### 4. FlashDuty SSO Configuration Example
+### 4. Flashduty SSO Configuration Example
 
 <img alt="drawing" width="600" src="https://api.apifox.com/api/v1/projects/4169655/resources/437188/image-preview" />
 

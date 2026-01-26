@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: FlashDuty
+  name: Flashduty
   text: Documentation
-  tagline: Comprehensive documentation for FlashDuty platform
+  tagline: Comprehensive documentation for Flashduty platform
   actions:
     - theme: brand
       text: 中文文档
