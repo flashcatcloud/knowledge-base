@@ -61,11 +61,11 @@ import Jira from "../flashduty/zh/1. On-call/5. 集成引导/8.2 变更集成/8.
 /** ⬆️⬆️⬆️⬆️ 变更事件 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ IM ⬇️⬇️⬇️⬇️ */
-import Lark from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.1 飞书 Lark 集成指引.md?raw";
-import Dingtalk from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.2 钉钉 Dingtalk 集成指引.md?raw";
-import Wecom from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.3 企业微信 Wecom 集成指引.md?raw";
-import Slack from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.4 Slack 集成指引.md?raw";
-import MicrosoftTeams from "../flashduty/zh/1. On-call/5. 集成引导/8.3 即时消息/8.3.5 Microsoft Teams 集成指引.md?raw";
+import Lark from "../flashduty/zh/1. On-call/5. 集成引导/8.3即时消息/8.3.1 飞书 Lark 集成指引.md?raw";
+import Dingtalk from "../flashduty/zh/1. On-call/5. 集成引导/8.3即时消息/8.3.2 钉钉 Dingtalk 集成指引.md?raw";
+import Wecom from "../flashduty/zh/1. On-call/5. 集成引导/8.3即时消息/8.3.3 企业微信 Wecom 集成指引.md?raw";
+import Slack from "../flashduty/zh/1. On-call/5. 集成引导/8.3即时消息/8.3.4 Slack 集成指引.md?raw";
+import MicrosoftTeams from "../flashduty/zh/1. On-call/5. 集成引导/8.3即时消息/8.3.5 Microsoft Teams 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ IM ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ Webhooks ⬇️⬇️⬇️⬇️ */
@@ -81,7 +81,7 @@ import ServiceDeskPlusSync from "../flashduty/zh/1. On-call/5. 集成引导/8.5 
 import Templates from "../flashduty/zh/1. On-call/3. 配置管理/4.7 配置通知模板.md?raw";
 
 /** ⬇️⬇️⬇️⬇️ Other ⬇️⬇️⬇️⬇️ */
-import Link from "../flashduty/zh/1. On-call/5. 集成引导/8.6 其他集成/8.6.1 Link 集成指引.md?raw";
+import Link from "../flashduty/zh/1. On-call/5. 集成引导/8.66其他集成/8.6.1 Link 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ Other ⬆️⬆️⬆️⬆️ */
 
 const docs = {
