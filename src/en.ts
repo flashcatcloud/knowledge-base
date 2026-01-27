@@ -52,6 +52,7 @@ import Monit from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integra
 import Rum from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.50 RUM Alert Integration.md?raw";
 import Cloudflare from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.51 Cloudflare Integration.md?raw";
 import WecomAlert from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.52 WecomAlert Integration.md?raw";
+import Harbor from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.53 Harbor Alert Integration.md?raw";
 
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
@@ -154,6 +155,7 @@ const docs = {
   Rum,
   Cloudflare,
   WecomAlert,
-  ServiceDeskPlusSync
+  ServiceDeskPlusSync,
+  Harbor
 };
 export default docs;
