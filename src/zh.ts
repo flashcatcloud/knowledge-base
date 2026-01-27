@@ -21,8 +21,8 @@ import TencentBK from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集�
 import TencentCLS from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.19 腾讯云 CLS 集成指引.md?raw";
 import TencentCm from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.20 腾讯云监控 CM 集成指引.md?raw";
 import TencentEb from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.21 腾讯云 Event Bridge 集成指引.md?raw";
-import OceanBase from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.22 OceanBase告警事件集成.md?raw";
-import Graylog from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.23 Graylog.md?raw";
+import OceanBase from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.22 OceanBase 告警事件集成指引.md?raw";
+import Graylog from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.23 Graylog 集成指引.md?raw";
 import Skywalking from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.24 Skywalking 告警集成指引.md?raw";
 import Sentry from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.25 Sentry 告警集成指引.md?raw";
 import Jiankongbao from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.26 监控宝告警集成指引.md?raw";
