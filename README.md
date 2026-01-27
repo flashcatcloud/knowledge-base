@@ -72,6 +72,10 @@ date: "2023-12-18T10:00:00+08:00"
 请你严格依照 @polish_instructions.md 的要求，对文档 @your_doc_name 进行润色。
 ```
 
+<<<<<<< HEAD
+完成润色后，可在 VSCode / Cursor 中打开文档，然后在文档 tab 页中右击，点击 `格式化文档`。
+
+=======
 完成润色后，可在 VSCode / Cursor 中打开文档，然后在文档 tab 页中右击，点击 `格式化文档`。
 
 - i18n
