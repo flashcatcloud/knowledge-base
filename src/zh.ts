@@ -52,6 +52,7 @@ import Monit from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8
 import Rum from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.50 RUM 告警集成指引.md?raw";
 import Cloudflare from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.51 Cloudflare 集成指引.md?raw";
 import WecomAlert from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.52 企微告警集成指引.md?raw";
+import Harbor from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.53 Harbor 告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -151,6 +152,7 @@ const docs = {
   Rum,
   Cloudflare,
   WecomAlert,
-  ServiceDeskPlusSync
+  ServiceDeskPlusSync,
+  Harbor
 };
 export default docs;
