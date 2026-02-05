@@ -53,8 +53,8 @@ import Rum from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integrati
 import Cloudflare from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.51 Cloudflare Integration.md?raw";
 import WecomAlert from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.52 WecomAlert Integration.md?raw";
 import Harbor from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.53 Harbor Alert Integration.md?raw";
-import VolcEngineRTC from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.54 Volcengine RTC Integration.md?raw";
-import UcloudCloudWatch from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.55 Ucloud CloudWatch Integration.md?raw";
+import VolcEngineRTC from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.55 Volcengine RTC Integration.md?raw";
+import UcloudCloudWatch from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.56 Ucloud CloudWatch Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -86,7 +86,11 @@ import Templates from "../flashduty/en/1. On-call/4. Configure On-call/4.7 Templ
 /** ⬇️⬇️⬇️⬇️ Other ⬇️⬇️⬇️⬇️ */
 import Link from  "../flashduty/en/1. On-call/8. Integrations/8.6 Other/8.6.1 Link Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ Other ⬆️⬆️⬆️⬆️ */
-	
+
+
+/** ⬇️⬇️⬇️⬇️ Label Mapping API ⬇️⬇️⬇️⬇️ */
+import LabelMappingAPI from '../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.54 Label Mapping API.md?raw';
+/** ⬆️⬆️⬆️⬆️ Label Mapping API ⬆️⬆️⬆️⬆️ */
 
 const docs = {
   CustomAlert,
@@ -159,6 +163,7 @@ const docs = {
   ServiceDeskPlusSync,
   Harbor,
   VolcEngineRTC,
-  UcloudCloudWatch
+  UcloudCloudWatch,
+  LabelMappingAPI
 };
 export default docs;

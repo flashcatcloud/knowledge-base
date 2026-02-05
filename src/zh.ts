@@ -53,8 +53,8 @@ import Rum from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1
 import Cloudflare from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.51 Cloudflare 集成指引.md?raw";
 import WecomAlert from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.52 企微告警集成指引.md?raw";
 import Harbor from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.53 Harbor 告警集成指引.md?raw";
-import VolcEngineRTC from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.54 火山引擎 RTC 告警集成指引.md?raw";
-import UcloudCloudWatch from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.55 Ucloud CloudWatch 告警集成指引.md?raw";
+import VolcEngineRTC from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.55 火山引擎 RTC 告警集成指引.md?raw";
+import UcloudCloudWatch from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.56 Ucloud CloudWatch 告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -86,6 +86,10 @@ import Templates from "../flashduty/zh/1. On-call/3. 配置管理/4.7 配置通�
 import Link from "../flashduty/zh/1. On-call/5. 集成引导/8.6 其他集成/8.6.1 Link 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ Other ⬆️⬆️⬆️⬆️ */
 
+
+/** ⬇️⬇️⬇️⬇️ Label Mapping API ⬇️⬇️⬇️⬇️ */
+import LabelMappingAPI from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.54 标签映射API.md?raw";
+/** ⬆️⬆️⬆️⬆️ Label Mapping API ⬆️⬆️⬆️⬆️ */
 const docs = {
   CustomAlert,
   Email,
@@ -157,6 +161,7 @@ const docs = {
   ServiceDeskPlusSync,
   Harbor,
   VolcEngineRTC,
-  UcloudCloudWatch
+  UcloudCloudWatch,
+  LabelMappingAPI
 };
 export default docs;
