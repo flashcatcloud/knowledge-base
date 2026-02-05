@@ -84,7 +84,11 @@ import Templates from "../flashduty/en/1. On-call/4. Configure On-call/4.7 Templ
 /** ⬇️⬇️⬇️⬇️ Other ⬇️⬇️⬇️⬇️ */
 import Link from  "../flashduty/en/1. On-call/8. Integrations/8.6 Other/8.6.1 Link Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ Other ⬆️⬆️⬆️⬆️ */
-	
+
+
+/** ⬇️⬇️⬇️⬇️ Label Mapping API ⬇️⬇️⬇️⬇️ */
+import LabelMappingAPI from '../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.54 Label Mapping API.md?raw';
+/** ⬆️⬆️⬆️⬆️ Label Mapping API ⬆️⬆️⬆️⬆️ */
 
 const docs = {
   CustomAlert,
@@ -155,6 +159,7 @@ const docs = {
   Cloudflare,
   WecomAlert,
   ServiceDeskPlusSync,
-  Harbor
+  Harbor,
+  LabelMappingAPI
 };
 export default docs;
