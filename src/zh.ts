@@ -84,6 +84,10 @@ import Templates from "../flashduty/zh/1. On-call/3. 配置管理/4.7 配置通�
 import Link from "../flashduty/zh/1. On-call/5. 集成引导/8.66其他集成/8.6.1 Link 集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ Other ⬆️⬆️⬆️⬆️ */
 
+
+/** ⬇️⬇️⬇️⬇️ Label Mapping API ⬇️⬇️⬇️⬇️ */
+import LabelMappingAPI from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.54 标签映射API.md?raw";
+/** ⬆️⬆️⬆️⬆️ Label Mapping API ⬆️⬆️⬆️⬆️ */
 const docs = {
   CustomAlert,
   Email,
@@ -153,6 +157,7 @@ const docs = {
   Cloudflare,
   WecomAlert,
   ServiceDeskPlusSync,
-  Harbor
+  Harbor,
+  LabelMappingAPI
 };
 export default docs;
