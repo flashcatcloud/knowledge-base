@@ -53,6 +53,8 @@ import Rum from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1
 import Cloudflare from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.51 Cloudflare 集成指引.md?raw";
 import WecomAlert from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.52 企微告警集成指引.md?raw";
 import Harbor from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.53 Harbor 告警集成指引.md?raw";
+import VolcEngineRTC from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.55 火山引擎 RTC 告警集成指引.md?raw";
+import UcloudCloudWatch from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.56 Ucloud CloudWatch 告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -158,6 +160,8 @@ const docs = {
   WecomAlert,
   ServiceDeskPlusSync,
   Harbor,
-  LabelMappingAPI
+  LabelMappingAPI,
+  VolcEngineRTC,
+  UcloudCloudWatch
 };
 export default docs;
