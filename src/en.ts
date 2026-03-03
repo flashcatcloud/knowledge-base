@@ -55,7 +55,7 @@ import WecomAlert from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts in
 import Harbor from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.53 Harbor Alert Integration.md?raw";
 import VolcEngineRTC from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.55 Volcengine RTC Integration.md?raw";
 import UcloudCloudWatch from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.56 Ucloud CloudWatch Integration.md?raw";
-
+import Nagios from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.57 Nagios Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -165,6 +165,7 @@ const docs = {
   Harbor,
   LabelMappingAPI,
   VolcEngineRTC,
-  UcloudCloudWatch
+  UcloudCloudWatch,
+  Nagios
 };
 export default docs;
