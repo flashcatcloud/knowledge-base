@@ -1,5 +1,36 @@
 import { resolve } from "path";
+import { readFileSync } from "fs";
 import { defineConfig, mergeConfig } from "vite";
+
+function formatMd(content) {
+  let result = content;
+  result = result.replace(/^---[\s\S]*?---\n*/, "");
+  result = result.replace(
+    /^\s*:{3,}\s*\w[^\n]*\n([\s\S]*?)^\s*:{3,}\s*$/gm,
+    (_, inner) => {
+      return inner
+        .trimEnd()
+        .split("\n")
+        .map((line) => `> ${line}`)
+        .join("\n");
+    }
+  );
+  return result;
+}
+
+function formatMarkdownPlugin() {
+  return {
+    name: "format-markdown-raw",
+    enforce: "pre",
+    load(id) {
+      if (/\.md\?raw$/.test(id)) {
+        const filePath = id.replace(/\?raw$/, "");
+        const content = readFileSync(filePath, "utf-8");
+        return `export default ${JSON.stringify(formatMd(content))}`;
+      }
+    },
+  };
+}
 
 function transformCodePlugin(mode) {
   return {
@@ -60,10 +91,10 @@ const iifeConfig = {
 
 // 根据命令行参数选择配置
 export default defineConfig(({ command, mode }) => {
+  const plugins = [formatMarkdownPlugin()];
   if (mode === "iife") {
-    return mergeConfig(iifeConfig, {
-      plugins: [transformCodePlugin(mode)],
-    });
+    plugins.push(transformCodePlugin(mode));
+    return mergeConfig(iifeConfig, { plugins });
   }
-  return esmConfig;
+  return mergeConfig(esmConfig, { plugins });
 });
