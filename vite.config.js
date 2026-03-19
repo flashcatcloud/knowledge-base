@@ -4,9 +4,9 @@ import { defineConfig, mergeConfig } from "vite";
 
 function formatMd(content) {
   let result = content;
-  result = result.replace(/^---[\s\S]*?---\n*/, "");
+  result = result.replace(/^---\n(.*\n)*?---\n*/, "");
   result = result.replace(
-    /^\s*:{3,}\s*\w[^\n]*\n([\s\S]*?)^\s*:{3,}\s*$/gm,
+    /^[ \t]*:{3,}[ \t]*\w[^\n]*\n([\s\S]*?)^[ \t]*:{3,}[ \t]*$/gm,
     (_, inner) => {
       return inner
         .trimEnd()
