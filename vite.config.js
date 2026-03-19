@@ -2,21 +2,21 @@ import { resolve } from "path";
 import { readFileSync } from "fs";
 import { defineConfig, mergeConfig } from "vite";
 
-function formatMd(content) {
-  let result = content;
-  result = result.replace(/^---\n(.*\n)*?---\n*/, "");
-  result = result.replace(
-    /^[ \t]*:{3,}[ \t]*\w[^\n]*\n([\s\S]*?)^[ \t]*:{3,}[ \t]*$/gm,
-    (_, inner) => {
-      return inner
-        .trimEnd()
-        .split("\n")
-        .map((line) => `> ${line}`)
-        .join("\n");
-    }
-  );
-  return result;
-}
+// function formatMd(content) {
+//   let result = content;
+//   result = result.replace(/^---\n(.*\n)*?---\n*/, "");
+//   result = result.replace(
+//     /^[ \t]*:{3,}[ \t]*\w[^\n]*\n([\s\S]*?)^[ \t]*:{3,}[ \t]*$/gm,
+//     (_, inner) => {
+//       return inner
+//         .trimEnd()
+//         .split("\n")
+//         .map((line) => `> ${line}`)
+//         .join("\n");
+//     }
+//   );
+//   return result;
+// }
 
 function formatMarkdownPlugin() {
   return {
@@ -26,7 +26,7 @@ function formatMarkdownPlugin() {
       if (/\.md\?raw$/.test(id)) {
         const filePath = id.replace(/\?raw$/, "");
         const content = readFileSync(filePath, "utf-8");
-        return `export default ${JSON.stringify(formatMd(content))}`;
+        return `export default ${JSON.stringify(content)}`;
       }
     },
   };
