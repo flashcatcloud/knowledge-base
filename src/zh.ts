@@ -56,6 +56,7 @@ import Harbor from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/
 import VolcEngineRTC from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.55 火山引擎 RTC 告警集成指引.md?raw";
 import UcloudCloudWatch from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.56 Ucloud CloudWatch 告警集成指引.md?raw";
 import Nagios from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.57 Nagios 告警集成指引.md?raw";
+import JDCloudMonitor from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.58 京东云监控告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
@@ -164,6 +165,7 @@ const docs = {
   LabelMappingAPI,
   VolcEngineRTC,
   UcloudCloudWatch,
-  Nagios
+  Nagios,
+  JDCloudMonitor
 };
 export default docs;
