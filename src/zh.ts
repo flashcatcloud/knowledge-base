@@ -57,8 +57,8 @@ import VolcEngineRTC from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警
 import UcloudCloudWatch from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.56 Ucloud CloudWatch 告警集成指引.md?raw";
 import Nagios from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.57 Nagios 告警集成指引.md?raw";
 import JDCloudMonitor from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1.58 京东云监控告警集成指引.md?raw";
+import AliyunPrometheus from "../flashduty/zh/1. On-call/5. 集成引导/8.1 告警集成/8.1 告警集成/8.1.59 阿里云 Prometheus 监控告警集成指引.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
-
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
 import CustomChange from "../flashduty/zh/1. On-call/5. 集成引导/8.2 变更集成/8.2.1 自定义事件集成指引.md?raw";
 import Jira from "../flashduty/zh/1. On-call/5. 集成引导/8.2 变更集成/8.2.2 Jira 事件集成指引.md?raw";
@@ -166,6 +166,7 @@ const docs = {
   VolcEngineRTC,
   UcloudCloudWatch,
   Nagios,
-  JDCloudMonitor
+  JDCloudMonitor,
+  AliyunPrometheus
 };
 export default docs;
