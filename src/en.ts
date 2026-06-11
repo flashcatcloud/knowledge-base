@@ -59,6 +59,7 @@ import Nagios from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integr
 import JDCloudMonitor from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.58 JD Cloud Monitoring Integration.md?raw";
 import AliyunPrometheus from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.59 Alibaba Cloud Prometheus Integration.md?raw";
 import HttpPull from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.60 Http Pull Alert Integration.md?raw";
+import DbPull from "../flashduty/en/1. On-call/8. Integrations/8.1 Alerts integration/8.1.61 DB Pull Alert Integration.md?raw";
 /** ⬆️⬆️⬆️⬆️ 告警集成 ⬆️⬆️⬆️⬆️ */
 /** ⬇️⬇️⬇️⬇️ 变更事件 ⬇️⬇️⬇️⬇️ */
 import CustomChange from "../flashduty/en/1. On-call/8. Integrations/8.2 Change integration/8.2.1 Standard Change Event.md?raw";
@@ -171,6 +172,7 @@ const docs = {
   Nagios,
   JDCloudMonitor,
   AliyunPrometheus,
-  HttpPull
+  HttpPull,
+  DbPull
 };
 export default docs;
